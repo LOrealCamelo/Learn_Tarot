@@ -14,6 +14,14 @@ A standalone, upright-only learning app for the owner's Ink & Intuition deck. Th
 
 Open `index.html`, or serve this directory with `python -m http.server 4173` and visit `http://localhost:4173`. No installation/build is needed to run the app.
 
+## Rider–Waite section
+
+The Rider–Waite tab reuses Spiritual Vibz’s original Learn Tarot renderer, source color styles, card content and 78 original images. It has independent progress and preserves that section’s upright/reversed modes. See [source provenance and integration](docs/RIDER-WAITE.md).
+
+## Offline on your phone
+
+Open the hosted app online and tap **Make available offline**. Wait for confirmation that both decks are saved, then add it to your home screen. See [offline setup and storage limits](docs/OFFLINE.md).
+
 ## Documentation
 
 - [App structure and local storage](docs/APP-STRUCTURE.md)
@@ -22,7 +30,7 @@ Open `index.html`, or serve this directory with `python -m http.server 4173` and
 - [Original Drive inventory from PR #1](docs/original-image-inventory.json)
 - [Validation and remaining review](docs/VALIDATION.md)
 
-Original raw photos stay untouched and separate from processed assets. Some source glare and clipped edges remain; no missing art was invented. The approved UI mockup must still be supplied for exact design comparison.
+Original raw photos stay untouched and separate from processed assets. Some source glare and clipped edges remain; no missing art was invented. The updated local design follows the supplied approved tattoo mockup and awaits review before live replacement.
 
 ## Checks
 

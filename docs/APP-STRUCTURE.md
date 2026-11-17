@@ -29,4 +29,12 @@ Development checks: `npm ci`, then `npm test`. The test uses `/usr/bin/chromium`
 
 ## Approval boundaries
 
-The owner approved pushing this candidate to the new `work/ink-intuition-refinement` review branch. PR #1, its original branch and `main` remain unchanged. No merge, hosting configuration or deployment was performed. The exact approved Library UI mockup was not available in this chat/workspace; matching that reference remains pending. The current candidate follows the user's stated bright palette and uses the deck's actual tattoo artwork. Further owner approval is required before merging or deploying.
+The owner approved pushing this candidate to the new `work/ink-intuition-refinement` review branch. PR #1, its original branch and `main` remain unchanged. No merge, hosting configuration or deployment was performed. The owner has now supplied the approved mockup. `tattoo.css`, `design-nav.js` and decorative `assets/ui/tattoo-header.png` refine the existing app to follow that visual reference. The decorative masthead is generated branding; all card images remain the processed original photographs. The owner approved and deployed the updated visual design. Further owner approval is required before merging or deploying.
+
+## Offline support
+
+See `OFFLINE.md`. Runtime additions: `offline.js`, `manifest.webmanifest`, generated `service-worker.js` and two home-screen PNG icons. Regenerate the offline cache version with `python scripts/build_offline.py` whenever runtime files change.
+
+## Rider–Waite tab
+
+The separate `rider/` page copies Spiritual Vibz’s color styles, learning renderer, reference library, imagery and card data. `rider/adapter.js` supplies static-host navigation, local quizzes and independent progress. See `RIDER-WAITE.md` for source provenance.

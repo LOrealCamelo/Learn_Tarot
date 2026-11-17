@@ -20,7 +20,7 @@
 
 ## Remaining review
 
-1. The exact approved Library mockup was unavailable. The supplied Drive link contains the 78 photos; an exact visual comparison still needs that mockup attached or shared as an accessible file.
+1. The owner supplied the approved tattoo-style mockup after the first deployment. The new local design candidate uses it for the ornate eye/rose masthead, turquoise/cream/gold palette, illustrated study tiles and four original featured cards. Live replacement awaits visual approval. The reference’s astrology, Moon Goddesses and birth-chart tiles are outside the current study scope; current functional tiles cover courts, numerology and quizzes.
 2. Some source glare and clipped top edges remain. Review `IMAGE-PROCESSING.md` and the per-card mapping notes; better originals can improve those assets without inventing missing artwork.
 3. Owner review of content wording and the visual candidate before remote application, merge or deployment.
 4. Safari and Firefox have not been tested. Progress remains local to each browser/device as requested.

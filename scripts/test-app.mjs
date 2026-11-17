@@ -5,7 +5,7 @@ import { createServer } from 'node:http';
 import { extname, resolve } from 'node:path';
 const root=resolve(import.meta.dirname,'..');
 const server=createServer(async(req,res)=>{
- try{const path=resolve(root,'.'+decodeURIComponent(req.url==='/'?'/index.html':req.url));if(!path.startsWith(root+'/'))throw Error('Invalid path');const body=await readFile(path);res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.jpg':'image/jpeg'})[extname(path)]||'application/octet-stream');res.end(body)}catch{res.statusCode=404;res.end('Not found')}
+ try{const path=resolve(root,'.'+decodeURIComponent(req.url==='/'?'/index.html':req.url));if(!path.startsWith(root+'/'))throw Error('Invalid path');const body=await readFile(path);res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.jpg':'image/jpeg','.png':'image/png','.webp':'image/webp'})[extname(path)]||'application/octet-stream');res.end(body)}catch{res.statusCode=404;res.end('Not found')}
 });
 await new Promise(r=>server.listen(0,'127.0.0.1',r));
 const base=`http://127.0.0.1:${server.address().port}`;
@@ -46,7 +46,12 @@ try{
    assert(await page.locator('#'+section).isVisible());
    assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),`Horizontal overflow at ${width}px on ${section}`);
   }
-  await page.locator('nav [data-nav="home"]').click();await mkdir(resolve(root,'test-results'),{recursive:true});await page.screenshot({path:resolve(root,`test-results/home-${width}.png`),fullPage:true});assert.deepEqual(errors,[]);results.push(`${width}px: all 78 assets and mappings; navigation; flips; aliases; quizzes; five-question mini test; persistence; no horizontal overflow or runtime errors`);
+  await page.locator('nav [data-nav="home"]').click();
+  await page.locator('[data-family="Major Arcana"]').click();assert.equal(await page.locator('#cards .tile').count(),22);
+  await page.locator('nav [data-nav="home"]').click();await page.locator('[data-family="minor"]').click();assert.equal(await page.locator('#cards .tile').count(),56);
+  await page.locator('nav [data-nav="home"]').click();await page.locator('[data-topic="courts"]').click();assert.equal(await page.locator('#lessonTopic').inputValue(),'courts');assert.match(await page.locator('#lessonTitle').innerText(),/Court/);
+  await page.locator('nav [data-nav="home"]').click();await page.locator('[data-card="The World"]').click();assert.equal(await page.locator('#studyName').innerText(),'The World');
+  await page.locator('nav [data-nav="home"]').click();assert(await page.locator('.tattoo-masthead img').evaluate(i=>i.complete&&i.naturalWidth>0));await mkdir(resolve(root,'test-results'),{recursive:true});await page.screenshot({path:resolve(root,`test-results/home-${width}.png`),fullPage:true});assert.deepEqual(errors,[]);results.push(`${width}px: all 78 assets and mappings; navigation; flips; aliases; quizzes; five-question mini test; persistence; no horizontal overflow or runtime errors`);
   // Corrupted legacy values must not inflate progress or break startup.
   await page.evaluate(()=>localStorage.setItem(storageKey,JSON.stringify({learned:['major-0','major-0','invalid'],correct:-4})));await page.reload();assert.equal(await page.evaluate(()=>state.learned.length),1);assert.equal(await page.evaluate(()=>state.correct),0);
   await context.close();

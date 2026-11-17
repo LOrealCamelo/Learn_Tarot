@@ -1,0 +1,629 @@
+{
+  "repository": "LOrealCamelo/Spiritual_Vibez_App",
+  "images": [
+    {
+      "source_path": "mobile/assets/tarot/00-the-fool.png",
+      "file": "00-the-fool.webp",
+      "source_sha256": "dd5c178c8aade6ca07dbb5ba4a0ff00e3398ab921db7036181dfcc021d49a19d",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/01-the-magician.png",
+      "file": "01-the-magician.webp",
+      "source_sha256": "aa4ce9f2080298224070f24eb47a83712f42e1c3dc690765d7a2f6aa88931258",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/02-the-high-priestess.png",
+      "file": "02-the-high-priestess.webp",
+      "source_sha256": "b58f83f3a8b72b6f35bf8c18b0e133fc5aa0ca8269fa8a6e7d51812c887de5a6",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/03-the-empress.png",
+      "file": "03-the-empress.webp",
+      "source_sha256": "46cbd3380c77650f75de7f6634637015c694086d31fec6462e1a6fbf2ac54eca",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/04-the-emperor.png",
+      "file": "04-the-emperor.webp",
+      "source_sha256": "846969f932a63a4ff257aab0a1cf78337f829df8a73fa4d3f6518414ec71aff8",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/05-the-hierophant.png",
+      "file": "05-the-hierophant.webp",
+      "source_sha256": "749b72684d721d3d1bca9d28af4c6be0bd0f969c4e540a46b7d9984c9d19d273",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/06-the-lovers.png",
+      "file": "06-the-lovers.webp",
+      "source_sha256": "b240b3d06e6812131d9cd24fe9e9be4c63e641b010b9646442270576da8ad7e5",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/07-the-chariot.png",
+      "file": "07-the-chariot.webp",
+      "source_sha256": "3e2708e66f03bbc3a5ed5f482b70c30f3544151eb4dfd03d77784d71ed1d534c",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/08-strength.png",
+      "file": "08-strength.webp",
+      "source_sha256": "25b1d8b20662702f60114c69e330da30216435b0f77540f4e33632ace0320f90",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/09-the-hermit.png",
+      "file": "09-the-hermit.webp",
+      "source_sha256": "2c50d0019e6465ba0d2347e47099033bb13d2d92da2cf6ddbe0c24374779ba73",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/10-wheel-of-fortune.png",
+      "file": "10-wheel-of-fortune.webp",
+      "source_sha256": "6a9affd3e17e89abb2f238ca42c6840d53f9461d336b9a1d8e44255ffa2e830c",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/11-justice.png",
+      "file": "11-justice.webp",
+      "source_sha256": "529a43849ffc12cbe12bcb1298affdce1a2c28472fe07100fe39eb062096d521",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/12-the-hanged-man.png",
+      "file": "12-the-hanged-man.webp",
+      "source_sha256": "1314d292255f7868106d16f619e87352248be7fbae097eb94ebb1c8991d0fe0a",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/13-death.png",
+      "file": "13-death.webp",
+      "source_sha256": "c9f95418bd8eeb21ba8aa39cd0b840809512207b7029723fe57a5c21d2d192ea",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/14-temperance.png",
+      "file": "14-temperance.webp",
+      "source_sha256": "2b263d73896d7c57dd5dbac3fcfe7a55652477d7d08393fa5fd8232e5fb61c18",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/15-the-devil.png",
+      "file": "15-the-devil.webp",
+      "source_sha256": "d2d2897ec2158461f6559fad63cfb534381127a645e6df776be35334d7ae3a01",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/16-the-tower.png",
+      "file": "16-the-tower.webp",
+      "source_sha256": "9fa9d2a729c6d6c54ab2b4b55ece10be560e4738a17f71654bb4fa6bf09767f8",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/17-the-star.png",
+      "file": "17-the-star.webp",
+      "source_sha256": "796867b3cee3fb472ae719a9532f8685494ff99133308b52de7d87123f9c50f7",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/18-the-moon.png",
+      "file": "18-the-moon.webp",
+      "source_sha256": "c1b63906781105432ac94aec253729bbd5f5edaff5a063e1c672a07e6e8ca0a7",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/19-the-sun.png",
+      "file": "19-the-sun.webp",
+      "source_sha256": "1ecf5ea0b47b3ddcf660c603a1b0995aae5e6fedbec2bbca9769c66a083267a8",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/20-judgement.png",
+      "file": "20-judgement.webp",
+      "source_sha256": "11068d2df371a7ac99a723518711ac73787b45bddf2f4defc828bb8f885033dc",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/21-the-world.png",
+      "file": "21-the-world.webp",
+      "source_sha256": "2743cf70fb3d3b19ce49d3ed0d803227706b225622301a319bd0f5c31354660e",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/22-ace-of-wands.png",
+      "file": "22-ace-of-wands.webp",
+      "source_sha256": "2f3da4ecdb7cf918d5496c6ad7ffb1f0646b28445af62a736aa9c1d63b0d3ca3",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/23-two-of-wands.png",
+      "file": "23-two-of-wands.webp",
+      "source_sha256": "3534739d8ed8547f02ebdae30496032845cd8d3b586e93f0f41f8de1aee1cd6b",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/24-three-of-wands.png",
+      "file": "24-three-of-wands.webp",
+      "source_sha256": "23b5ec58913dbb34a415dd8d24e19326fc8d3b3bfcb81bfbb879b05c0ee19400",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/25-four-of-wands.png",
+      "file": "25-four-of-wands.webp",
+      "source_sha256": "7090ba6cd98612f427de2112267e31c1b99ecd465db67d893b05f27d28a65e57",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/26-five-of-wands.png",
+      "file": "26-five-of-wands.webp",
+      "source_sha256": "e04634332b30163fa4c093661cac541ccab2daa7530de91789fbfea7b087ab42",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/27-six-of-wands.png",
+      "file": "27-six-of-wands.webp",
+      "source_sha256": "ffeebba454a04b8867376098c3f92c08c3c4a86eca28ae23425e1473b2d0744a",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/28-seven-of-wands.png",
+      "file": "28-seven-of-wands.webp",
+      "source_sha256": "2e65f97f14cd70e4802bad64fd5122eff455d54bb2dbba5b23c092b0dd1066ec",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/29-eight-of-wands.png",
+      "file": "29-eight-of-wands.webp",
+      "source_sha256": "84e01bf0856854f882f2bcfffc24800f6ff85e3ba4e0ccd6792847d9f226f2eb",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/30-nine-of-wands.png",
+      "file": "30-nine-of-wands.webp",
+      "source_sha256": "3a430ee4368501cac65048a541255b31e17ebd85d00b4309eeba9e920c16a109",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/31-ten-of-wands.png",
+      "file": "31-ten-of-wands.webp",
+      "source_sha256": "71a0052344763cc5f48f500f429144c77279798c8da19af7546b58e9f7533f7b",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/32-page-of-wands.png",
+      "file": "32-page-of-wands.webp",
+      "source_sha256": "0153a9b7250236fee21b84a3d30146a4fbaf0540c9f8019aa1553524c2bdd947",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/33-knight-of-wands.png",
+      "file": "33-knight-of-wands.webp",
+      "source_sha256": "f97c9533b2c6c990a5c3dd2a8bb4f09f14a6d48104a1486673d4dc44959e933f",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/34-queen-of-wands.png",
+      "file": "34-queen-of-wands.webp",
+      "source_sha256": "42aae131f48ba800b6e2e4a7a8ad0051e7315c93aefb1d1bdd9f19a80057be2c",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/35-king-of-wands.png",
+      "file": "35-king-of-wands.webp",
+      "source_sha256": "def42847de32216b897426d5cf93cbfbb768876a2ad37ed825a25aa8ac23afda",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/36-ace-of-cups.png",
+      "file": "36-ace-of-cups.webp",
+      "source_sha256": "bcef98ee11e2122e95a14979419441ef0042af37fe900aa4c013eeb125ea7fcd",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/37-two-of-cups.png",
+      "file": "37-two-of-cups.webp",
+      "source_sha256": "c8c306a2073a9633944c908cbeb31481fa51a8a4eda807fa65ace0c6ca0a7048",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/38-three-of-cups.png",
+      "file": "38-three-of-cups.webp",
+      "source_sha256": "3cfffa5998076e75fdcbaee60ef57b4c97b330fda45c867ee40ac0d2530c7502",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/39-four-of-cups.png",
+      "file": "39-four-of-cups.webp",
+      "source_sha256": "c1dfa2b9e2571d022d1d76eceb9e9850f5c9ea6535b51210de8fa096888233f6",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/40-five-of-cups.png",
+      "file": "40-five-of-cups.webp",
+      "source_sha256": "a35db7e0900bc72f1d5d9bda4e10c0580fd8ddbeaf90377e432c1b2d66a76480",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/41-six-of-cups.png",
+      "file": "41-six-of-cups.webp",
+      "source_sha256": "a57998f09bdb15572f5618611746fc871906996ba69d815f2d3f810980f7107f",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/42-seven-of-cups.png",
+      "file": "42-seven-of-cups.webp",
+      "source_sha256": "e3e6a9b2196fd45a904fd0c83347959ff6355b0ced46ca7021cbc377ff6e3cf8",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/43-eight-of-cups.png",
+      "file": "43-eight-of-cups.webp",
+      "source_sha256": "2d7a5ad4f84009eb58a4ed935ca9b8030ccb592f402e1d8a9e3d4c14abbf5ede",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/44-nine-of-cups.png",
+      "file": "44-nine-of-cups.webp",
+      "source_sha256": "53969679fa04a555762902ebfaf079d33ceef1f04e2aeb87f50ecac854215505",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/45-ten-of-cups.png",
+      "file": "45-ten-of-cups.webp",
+      "source_sha256": "3ee39ab387c63e650e3b60d761c0d0396545aa6c76c0c7b06da79a3f1e65deb5",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/46-page-of-cups.png",
+      "file": "46-page-of-cups.webp",
+      "source_sha256": "23b0013e0544df05b040c2c0a81c6a79940e543f4975f6c60289690dd7332cfe",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/47-knight-of-cups.png",
+      "file": "47-knight-of-cups.webp",
+      "source_sha256": "67bd6533f459465fe2a714ad0aead034d1ab5dce2258b68e224a19b73ab1f543",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/48-queen-of-cups.png",
+      "file": "48-queen-of-cups.webp",
+      "source_sha256": "5f9672e75516f3cb0cc582b8235afc78474e0fcea5282064a9ada3f47acf9261",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/49-king-of-cups.png",
+      "file": "49-king-of-cups.webp",
+      "source_sha256": "af3d4e8a4d9311c5c4d66391e63b143d88297b3804f71fe128768b8446dce870",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/50-ace-of-swords.png",
+      "file": "50-ace-of-swords.webp",
+      "source_sha256": "51a2bbae9e09578e1f637c92756503d0881df3aa2adb390d9b4bf1c5557569d9",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/51-two-of-swords.png",
+      "file": "51-two-of-swords.webp",
+      "source_sha256": "91216290823037750b5af6b0e5ac6d8e149e9783f3ddb1109d32e8b20ce65a3c",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/52-three-of-swords.png",
+      "file": "52-three-of-swords.webp",
+      "source_sha256": "9f70d8c9bda9758f1a7f547ec0db5982d2f9c23be284749f5e8ccb30e45e71fe",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/53-four-of-swords.png",
+      "file": "53-four-of-swords.webp",
+      "source_sha256": "1fc7aa8f427cc06058340dc7bbf6c52bea8fa44271c691c64188e4dc3d888fe6",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/54-five-of-swords.png",
+      "file": "54-five-of-swords.webp",
+      "source_sha256": "2cbb407389fcce685f98a165276afe505ab4d7017e46e8f0dfea3e8dffa8d785",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/55-six-of-swords.png",
+      "file": "55-six-of-swords.webp",
+      "source_sha256": "82e78c2524c58cc4d2b0177afbac3f60c168050fbc44dc4c0425482166d9ff8a",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/56-seven-of-swords.png",
+      "file": "56-seven-of-swords.webp",
+      "source_sha256": "74f61931fd9ec4b6cbef65570789b44db0be255f4c0cbac6dbf38917432cd8d4",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/57-eight-of-swords.png",
+      "file": "57-eight-of-swords.webp",
+      "source_sha256": "e73160fd193d31fbca95331efdf0028aef34958be3e46abc13c851a5177f6f26",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/58-nine-of-swords.png",
+      "file": "58-nine-of-swords.webp",
+      "source_sha256": "cefcbe611e281b5e083fc7bf5aa982a809dab1e473d81203504ec5d054a4b05d",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/59-ten-of-swords.png",
+      "file": "59-ten-of-swords.webp",
+      "source_sha256": "e7cb1ec88238c113e00e35b8ac33d54da9d055d8809232facc2e9f59a82de58d",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/60-page-of-swords.png",
+      "file": "60-page-of-swords.webp",
+      "source_sha256": "af2f7c951f15a3bbe5fba21cfd11bbd56167a0dacc00204a8ad64305e2a97285",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/61-knight-of-swords.png",
+      "file": "61-knight-of-swords.webp",
+      "source_sha256": "a6ba1594f9b7bf143cfa5a17c2c7c6ee670797425e26066a2cb04e22823bdc17",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/62-queen-of-swords.png",
+      "file": "62-queen-of-swords.webp",
+      "source_sha256": "aa18c1b0fb0890e67fc97747b3e4950198194c8fb5252b8404847338d0a0b847",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/63-king-of-swords.png",
+      "file": "63-king-of-swords.webp",
+      "source_sha256": "37711e3878ae9441cf25cfb5ecf40b5d8d44acd05996243daa20edff814c360b",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/64-ace-of-pentacles.png",
+      "file": "64-ace-of-pentacles.webp",
+      "source_sha256": "8ca423e77ec1417d50be345e47f43ed750fa2443644f8f9e6c18983fab87d0b4",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/65-two-of-pentacles.png",
+      "file": "65-two-of-pentacles.webp",
+      "source_sha256": "a7f78792b64eb8e73719ea624a47fbdfa75e0109a16ed99bbb84783b1dbed03b",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/66-three-of-pentacles.png",
+      "file": "66-three-of-pentacles.webp",
+      "source_sha256": "dbcc2690f1f2863854bb5ff9e67168f27b3536052436bbcf1b4caf7e44b986b9",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/67-four-of-pentacles.png",
+      "file": "67-four-of-pentacles.webp",
+      "source_sha256": "32e0943c6eadd357421b643583c69ef33c9322140249ded3a557807f8688c53d",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/68-five-of-pentacles.png",
+      "file": "68-five-of-pentacles.webp",
+      "source_sha256": "4f63c04cee01d164a532494879a7e5afe57d312aa2f4090301d7efbc8dc5e28a",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/69-six-of-pentacles.png",
+      "file": "69-six-of-pentacles.webp",
+      "source_sha256": "d81497316f16f6df432f9492bf0e65518bd42abdb0dbb59b14bcadb809a9beae",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/70-seven-of-pentacles.png",
+      "file": "70-seven-of-pentacles.webp",
+      "source_sha256": "daee5d9afbee546770f4ca2555c3f9822472af290f1c6c88b828fa0470e7c1cf",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/71-eight-of-pentacles.png",
+      "file": "71-eight-of-pentacles.webp",
+      "source_sha256": "24b8f55711172721e2fff179770666cc7c537d439fcb5ecd54cfca37b604323f",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/72-nine-of-pentacles.png",
+      "file": "72-nine-of-pentacles.webp",
+      "source_sha256": "c4940955ad8685bc024c211fe036b47c319ea534bd3fe3e38b9d8630c04ca6cf",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/73-ten-of-pentacles.png",
+      "file": "73-ten-of-pentacles.webp",
+      "source_sha256": "12918b00e513ef2d33bf3e27c72486a8e9b0bc11bf80aec0440af46da31349cb",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/74-page-of-pentacles.png",
+      "file": "74-page-of-pentacles.webp",
+      "source_sha256": "b18dda72d64a3be0fe9fd6b07e0e4f21720f1bcdaf95351b2970660da83e9cb3",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/75-knight-of-pentacles.png",
+      "file": "75-knight-of-pentacles.webp",
+      "source_sha256": "63c8bb75151439c99d08a1e0f56f627c8b5e954cac187cda3533f3afe10d4e42",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/76-queen-of-pentacles.png",
+      "file": "76-queen-of-pentacles.webp",
+      "source_sha256": "55d458527842732cc759e95e6200b2dc1b0e40effb07dd04407d8ce9ae099548",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    },
+    {
+      "source_path": "mobile/assets/tarot/77-king-of-pentacles.png",
+      "file": "77-king-of-pentacles.webp",
+      "source_sha256": "456eb6a9931ce6c43973a0e401d835a4ff205c1393fb5f399e52af57af7038d1",
+      "width": 648,
+      "height": 1080,
+      "lossless_pixels_verified": true
+    }
+  ]
+}
