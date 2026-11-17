@@ -1,0 +1,2763 @@
+{
+  "count": 78,
+  "output_dimensions": [
+    720,
+    1200
+  ],
+  "source_originals_modified": false,
+  "cards": [
+    {
+      "id": "cups-6",
+      "name": "Seven of Cups",
+      "raw": "IMG_6325.jpg",
+      "file": "seven-of-cups.jpg",
+      "raw_sha256": "c9cfd4f0c3a79e58c9246db850194ec29d9de179750be69b89a5c2ee0160e90a",
+      "source_url": "https://drive.google.com/file/d/1s3G2hHiTrqPqlj6GfoLCKKq4kmnhOffQ/view?usp=drivesdk",
+      "corners": [
+        [
+          670.1900024414062,
+          23.860000610351562
+        ],
+        [
+          3592.580078125,
+          62.38999938964844
+        ],
+        [
+          3541.18994140625,
+          5489.68017578125
+        ],
+        [
+          21.479999542236328,
+          5740.169921875
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "pentacles-3",
+      "name": "Four of Coins",
+      "raw": "IMG_6326.jpg",
+      "file": "four-of-coins.jpg",
+      "raw_sha256": "0e7623325acc79a3d1807a057178f70b7acf697500f041207436ac43ff666aae",
+      "source_url": "https://drive.google.com/file/d/1OgwkUXAT0m_rEXH_GGlMXUez0wcUh60x/view?usp=drivesdk",
+      "corners": [
+        [
+          505.0,
+          31.969999313354492
+        ],
+        [
+          3324.6298828125,
+          96.19999694824219
+        ],
+        [
+          3253.969970703125,
+          5330.81005859375
+        ],
+        [
+          138.89999389648438,
+          5292.27001953125
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "major-10",
+      "name": "Wheel of Fortune",
+      "raw": "IMG_6327.jpg",
+      "file": "wheel-of-fortune.jpg",
+      "raw_sha256": "1f68b2f3bd3dfb9b38af56a00862b0bb777e59d0f4373765872e7b21c7fed4ce",
+      "source_url": "https://drive.google.com/file/d/1GBg4ijSY7W2FKDhUqFwlO9CBkb2yI67-/view?usp=drivesdk",
+      "corners": [
+        [
+          459.57000732421875,
+          184.35000610351562
+        ],
+        [
+          3356.260009765625,
+          229.30999755859375
+        ],
+        [
+          3279.18994140625,
+          5476.759765625
+        ],
+        [
+          286.1499938964844,
+          5451.06982421875
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "pentacles-4",
+      "name": "Five of Coins",
+      "raw": "IMG_6329.jpg",
+      "file": "five-of-coins.jpg",
+      "raw_sha256": "b54075b3a763cb6446f189df5ff86e586b64e2e0b287a241ba5e9276ee277fc9",
+      "source_url": "https://drive.google.com/file/d/1na7KlSjuI8qwVfrGlfXnwAXO_ESyyz5b/view?usp=drivesdk",
+      "corners": [
+        [
+          433.8800048828125,
+          140.02000427246094
+        ],
+        [
+          3324.14990234375,
+          62.95000076293945
+        ],
+        [
+          3381.949951171875,
+          5496.66015625
+        ],
+        [
+          241.19000244140625,
+          5432.43017578125
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "cups-3",
+      "name": "Four of Cups",
+      "raw": "IMG_6330.jpg",
+      "file": "four-of-cups.jpg",
+      "raw_sha256": "6639b53eed22aa31993d8901a329a779da1f8f31608f6113b424336c9ed81751",
+      "source_url": "https://drive.google.com/file/d/11CfpxWcWKfRB9SEFKe3BzFvZpvg1FKnn/view?usp=drivesdk",
+      "corners": [
+        [
+          575.469970703125,
+          419.6400146484375
+        ],
+        [
+          3311.590087890625,
+          374.67999267578125
+        ],
+        [
+          3375.820068359375,
+          5596.43017578125
+        ],
+        [
+          23.100000381469727,
+          5737.740234375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "major-17",
+      "name": "The Star",
+      "raw": "IMG_6331.jpg",
+      "file": "the-star.jpg",
+      "raw_sha256": "2c9d5a9887b497e39e721288a12490ed29d19865058f336e3bee1d5f245d8b8d",
+      "source_url": "https://drive.google.com/file/d/14ZO_uEJd0gafZ3hvkwDXDpWnBE8aXzn-/view?usp=drivesdk",
+      "corners": [
+        [
+          369.92999267578125,
+          37.540000915527344
+        ],
+        [
+          3318.010009765625,
+          43.959999084472656
+        ],
+        [
+          3388.659912109375,
+          5445.56005859375
+        ],
+        [
+          209.36000061035156,
+          5509.7900390625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "pentacles-5",
+      "name": "Six of Coins",
+      "raw": "IMG_6332.jpg",
+      "file": "six-of-coins.jpg",
+      "raw_sha256": "c3f873fcea0d62e4d7bface9442e089c10b22b8cb2cd05b2517d81bca390af3d",
+      "source_url": "https://drive.google.com/file/d/1AzuiYveabdYnqWJHzH5SYkABkv2HpEhW/view?usp=drivesdk",
+      "corners": [
+        [
+          599.1400146484375,
+          29.649999618530273
+        ],
+        [
+          3643.56005859375,
+          68.19000244140625
+        ],
+        [
+          3643.56005859375,
+          5688.16015625
+        ],
+        [
+          72.47000122070312,
+          5739.5400390625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "cups-4",
+      "name": "Five of Cups",
+      "raw": "IMG_6333.jpg",
+      "file": "five-of-cups.jpg",
+      "raw_sha256": "213a34c287fd2d84b34fe0abf86bf3043ce936834ac996b049516f623cc99adc",
+      "source_url": "https://drive.google.com/file/d/1GHERGwbUMYJe88cx3rlzj--MOeGUKooq/view?usp=drivesdk",
+      "corners": [
+        [
+          651.5499877929688,
+          208.9199981689453
+        ],
+        [
+          3406.93994140625,
+          221.77000427246094
+        ],
+        [
+          3580.360107421875,
+          5546.2900390625
+        ],
+        [
+          -22.850000381469727,
+          5738.97021484375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "wands-6",
+      "name": "Seven of Wands",
+      "raw": "IMG_6334.jpg",
+      "file": "seven-of-wands.jpg",
+      "raw_sha256": "3f1cc0766b3f73a1500f3ec73ec75ed661a6b60ef5bdbc1ad331e5e11fd33882",
+      "source_url": "https://drive.google.com/file/d/1qFVSKpD5oqDSywCpSTA8pN_j1CJM7bNO/view?usp=drivesdk",
+      "corners": [
+        [
+          536.5999755859375,
+          144.97999572753906
+        ],
+        [
+          3375.489990234375,
+          112.86000061035156
+        ],
+        [
+          3503.949951171875,
+          5623.64990234375
+        ],
+        [
+          -22.18000030517578,
+          5739.259765625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "wands-9",
+      "name": "Ten of Wands",
+      "raw": "IMG_6335.jpg",
+      "file": "ten-of-wands.jpg",
+      "raw_sha256": "717c7f854ed7e7f6c426bcf5221724b5b68ba445eec6244bee1a8fc82aeaec2f",
+      "source_url": "https://drive.google.com/file/d/1NTAPvINwfeFIOROZisf4shefgjp5kTeX/view?usp=drivesdk",
+      "corners": [
+        [
+          497.3999938964844,
+          -33.970001220703125
+        ],
+        [
+          3477.590087890625,
+          4.570000171661377
+        ],
+        [
+          3471.169921875,
+          5611.7001953125
+        ],
+        [
+          169.83999633789062,
+          5740.14990234375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-10",
+      "name": "Knave of Swords",
+      "raw": "IMG_6336.jpg",
+      "file": "knave-of-swords.jpg",
+      "raw_sha256": "4facf39f16b1aab8fa29983ca9acfa0acb104ac37b5f6b8c83e0830f318437e3",
+      "source_url": "https://drive.google.com/file/d/1OCMiPYUBUpmFLdRpLQKW11PKVt2I8YL5/view?usp=drivesdk",
+      "corners": [
+        [
+          612.47998046875,
+          4.460000038146973
+        ],
+        [
+          3586.25,
+          42.9900016784668
+        ],
+        [
+          3599.090087890625,
+          5656.5400390625
+        ],
+        [
+          -4.110000133514404,
+          5656.5400390625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-9",
+      "name": "Ten of Swords",
+      "raw": "IMG_6337.jpg",
+      "file": "ten-of-swords.jpg",
+      "raw_sha256": "bc7e0518f7bfb9bdff5cc88ddbc573eb07fc8cd6a15546b6367be94b404a6c8d",
+      "source_url": "https://drive.google.com/file/d/190-W1E5Vr1hbLXzg_xMvAxvtPvAUn8H8/view?usp=drivesdk",
+      "corners": [
+        [
+          549.0900268554688,
+          114.86000061035156
+        ],
+        [
+          3330.169921875,
+          89.16999816894531
+        ],
+        [
+          3400.820068359375,
+          5400.85009765625
+        ],
+        [
+          234.3699951171875,
+          5349.47021484375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "major-16",
+      "name": "The Tower",
+      "raw": "IMG_6338.jpg",
+      "file": "the-tower.jpg",
+      "raw_sha256": "dcc132ef83e845155c9ce1dd5a0c8f4b0a77f25aafba9dc8843cefe09d03fd87",
+      "source_url": "https://drive.google.com/file/d/1w2ChbgwLKlADajO1xvUkCoKME7Ev5Zy0/view?usp=drivesdk",
+      "corners": [
+        [
+          523.6,
+          0.0
+        ],
+        [
+          3570.0,
+          0.0
+        ],
+        [
+          3570.0,
+          5537.47
+        ],
+        [
+          238.0,
+          5553.33
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "swords-13",
+      "name": "King of Swords",
+      "raw": "IMG_6339.jpg",
+      "file": "king-of-swords.jpg",
+      "raw_sha256": "f7fb602b7ee1f3f6a11ef6c6575ed0fb05e58a0187a6a7fee14b02248757dce8",
+      "source_url": "https://drive.google.com/file/d/1FCOZwvsXasDU1N4TJ5m_GrYmX491CkdX/view?usp=drivesdk",
+      "corners": [
+        [
+          670.3599853515625,
+          388.1700134277344
+        ],
+        [
+          3329.409912109375,
+          407.44000244140625
+        ],
+        [
+          3464.2900390625,
+          5577.81005859375
+        ],
+        [
+          304.260009765625,
+          5539.27978515625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "cups-13",
+      "name": "King of Cups",
+      "raw": "IMG_6340.jpg",
+      "file": "king-of-cups.jpg",
+      "raw_sha256": "d33c0ce50d2ce9bd513cf1328595a81ddd492c278aab0968695546e11744ab82",
+      "source_url": "https://drive.google.com/file/d/1y4W8ZlMzrpUtGH7RZ1SsMAilL7rCiShm/view?usp=drivesdk",
+      "corners": [
+        [
+          412.53,
+          0.0
+        ],
+        [
+          3474.8,
+          0.0
+        ],
+        [
+          3506.53,
+          5696.13
+        ],
+        [
+          126.93,
+          5696.13
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "major-20",
+      "name": "Judgement",
+      "raw": "IMG_6341.jpg",
+      "file": "judgement.jpg",
+      "raw_sha256": "393688cfadc18ddfa002e2c16b52339e35f04274ff546eab350015179e0d0794",
+      "source_url": "https://drive.google.com/file/d/1_O2bDXszL1prvInkmmQXY9DFhuYu8xHn/view?usp=drivesdk",
+      "corners": [
+        [
+          401.1700134277344,
+          121.0
+        ],
+        [
+          3400.6298828125,
+          63.189998626708984
+        ],
+        [
+          3394.2099609375,
+          5432.68017578125
+        ],
+        [
+          381.8999938964844,
+          5432.68017578125
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-2",
+      "name": "Three of Swords",
+      "raw": "IMG_6342.jpg",
+      "file": "three-of-swords.jpg",
+      "raw_sha256": "db402b3af6a15bfdcc1c4e3992de6b7cea847138aad7b0730f4cf7cae17f2da7",
+      "source_url": "https://drive.google.com/file/d/1CH_EJJABXsvQyyrRtttw9DEKewcb5EEd/view?usp=drivesdk",
+      "corners": [
+        [
+          791.22998046875,
+          43.06999969482422
+        ],
+        [
+          3642.969970703125,
+          62.34000015258789
+        ],
+        [
+          3745.72998046875,
+          5573.1201171875
+        ],
+        [
+          -24.469999313354492,
+          5656.6201171875
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "pentacles-11",
+      "name": "Knight of Coins",
+      "raw": "IMG_6343.jpg",
+      "file": "knight-of-coins.jpg",
+      "raw_sha256": "413a513a514a42e68dad5a03c7c579aa7bc1170d8b61078c979cd2251b17daa2",
+      "source_url": "https://drive.google.com/file/d/1MOJ3ujEuA3I3AXe-QWzrxS1XE7psm7Yg/view?usp=drivesdk",
+      "corners": [
+        [
+          470.8900146484375,
+          100.73999786376953
+        ],
+        [
+          3515.31005859375,
+          17.239999771118164
+        ],
+        [
+          3553.85009765625,
+          5656.490234375
+        ],
+        [
+          348.8599853515625,
+          5605.10009765625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "major-6",
+      "name": "The Lovers",
+      "raw": "IMG_6344.jpg",
+      "file": "the-lovers.jpg",
+      "raw_sha256": "8bd55f09134d81ec35097982a42832dc96ab0b76061fea2b91463b4772751e8d",
+      "source_url": "https://drive.google.com/file/d/1y-Se2vEJyYVTB8dCovl-TIj8M6-dsrvY/view?usp=drivesdk",
+      "corners": [
+        [
+          547.9299926757812,
+          241.88999938964844
+        ],
+        [
+          3425.35009765625,
+          139.1300048828125
+        ],
+        [
+          3515.27001953125,
+          5534.2998046875
+        ],
+        [
+          413.04998779296875,
+          5515.02978515625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "wands-5",
+      "name": "Six of Wands",
+      "raw": "IMG_6345.jpg",
+      "file": "six-of-wands.jpg",
+      "raw_sha256": "d6253f8e006c2677ab630a1abf64c50c18b8b15a65243d90511538f7f8e1888e",
+      "source_url": "https://drive.google.com/file/d/1EwV_Tfaia3lXWuszhNDJaUpEtGVwgbq6/view?usp=drivesdk",
+      "corners": [
+        [
+          534.1699829101562,
+          29.920000076293945
+        ],
+        [
+          3565.739990234375,
+          -34.310001373291016
+        ],
+        [
+          3739.159912109375,
+          5701.27001953125
+        ],
+        [
+          367.1700134277344,
+          5739.81005859375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "wands-0",
+      "name": "Ace of Wands",
+      "raw": "IMG_6346.jpg",
+      "file": "ace-of-wands.jpg",
+      "raw_sha256": "46458af4d8d11a18f3a19759558491d41835636d1dfae8810843222b822687b7",
+      "source_url": "https://drive.google.com/file/d/1Ksw4zETTKPn3lyE-KHk_7J0-eRN_8jzk/view?usp=drivesdk",
+      "corners": [
+        [
+          496.29998779296875,
+          94.08999633789062
+        ],
+        [
+          3418.679931640625,
+          49.130001068115234
+        ],
+        [
+          3508.60009765625,
+          5572.759765625
+        ],
+        [
+          560.52001953125,
+          5739.75
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "cups-7",
+      "name": "Eight of Cups",
+      "raw": "IMG_6347.jpg",
+      "file": "eight-of-cups.jpg",
+      "raw_sha256": "e2b5d7ec6725b17c51a4be5121d565d2996a1c2b20fb0d923a15f3e49e66a52e",
+      "source_url": "https://drive.google.com/file/d/1qG-WTPLyuf1tFC68xS6zbsMxtSTqy-zV/view?usp=drivesdk",
+      "corners": [
+        [
+          661.3300170898438,
+          82.55999755859375
+        ],
+        [
+          3673.6298828125,
+          31.170000076293945
+        ],
+        [
+          3667.2099609375,
+          5477.72998046875
+        ],
+        [
+          635.6400146484375,
+          5426.35009765625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "cups-10",
+      "name": "Knave of Cups",
+      "raw": "IMG_6348.jpg",
+      "file": "knave-of-cups.jpg",
+      "raw_sha256": "8e958f53ad1c30fdcf123c5d98768af83a611b3dd55776867dc06c5a40354c8b",
+      "source_url": "https://drive.google.com/file/d/1xJZLnCGB4e-6l1X3Yxrxtw6j0_kC9vkV/view?usp=drivesdk",
+      "corners": [
+        [
+          420.1600036621094,
+          18.139999389648438
+        ],
+        [
+          3477.419921875,
+          -13.979999542236328
+        ],
+        [
+          3464.580078125,
+          5541.77001953125
+        ],
+        [
+          310.9700012207031,
+          5535.35009765625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-6",
+      "name": "Seven of Swords",
+      "raw": "IMG_6349.jpg",
+      "file": "seven-of-swords.jpg",
+      "raw_sha256": "ccbf8b1562dfc96a026cdf0c1e0109784a943565711a89412a46de9fe6e2b6cf",
+      "source_url": "https://drive.google.com/file/d/1hYfRdgDbbQM9WkU5D70PDiXB2WwHkOVI/view?usp=drivesdk",
+      "corners": [
+        [
+          586.219970703125,
+          88.7300033569336
+        ],
+        [
+          3495.760009765625,
+          56.619998931884766
+        ],
+        [
+          3540.719970703125,
+          5496.75
+        ],
+        [
+          361.4200134277344,
+          5458.22021484375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "pentacles-2",
+      "name": "Three of Coins",
+      "raw": "IMG_6350.jpg",
+      "file": "three-of-coins.jpg",
+      "raw_sha256": "b727f66622b9c84ba3c67c5275bab0e8a747d08ac06e2ab76144a1d999fa3123",
+      "source_url": "https://drive.google.com/file/d/1XFleTm0ChP__fM9HxWEkIB50sookREOy/view?usp=drivesdk",
+      "corners": [
+        [
+          522.1599731445312,
+          88.47000122070312
+        ],
+        [
+          3483.080078125,
+          24.239999771118164
+        ],
+        [
+          3560.159912109375,
+          5541.4501953125
+        ],
+        [
+          361.5899963378906,
+          5535.02001953125
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "pentacles-8",
+      "name": "Nine of Coins",
+      "raw": "IMG_6351.jpg",
+      "file": "nine-of-coins.jpg",
+      "raw_sha256": "9a623642a106f550051c59d809ff49c52ac659d0b469b3dc0dadd2b9bd53837c",
+      "source_url": "https://drive.google.com/file/d/1BPTXB1KahpmMH3cfMzdD9AjfWhsG16H2/view?usp=drivesdk",
+      "corners": [
+        [
+          446.0400085449219,
+          126.55000305175781
+        ],
+        [
+          3400.5400390625,
+          55.900001525878906
+        ],
+        [
+          3490.4599609375,
+          5579.52978515625
+        ],
+        [
+          272.6199951171875,
+          5579.52978515625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-4",
+      "name": "Five of Swords",
+      "raw": "IMG_6352.jpg",
+      "file": "five-of-swords.jpg",
+      "raw_sha256": "61e17025c02bd0f521e070d7b9804c4b657b5df2ed0455e70ebbc2d986db49b9",
+      "source_url": "https://drive.google.com/file/d/1hAtPkknCVlcGryvQK3wD62ZTArGH0hqA/view?usp=drivesdk",
+      "corners": [
+        [
+          502.70001220703125,
+          -14.470000267028809
+        ],
+        [
+          3585.659912109375,
+          -33.7400016784668
+        ],
+        [
+          3534.27001953125,
+          5740.3798828125
+        ],
+        [
+          367.82000732421875,
+          5554.1201171875
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-1",
+      "name": "Two of Swords",
+      "raw": "IMG_6353.jpg",
+      "file": "two-of-swords.jpg",
+      "raw_sha256": "4549567e573ac131371db89a1bb0b20b4b54cfd58d84668a348024490a36b1c4",
+      "source_url": "https://drive.google.com/file/d/1NVuT1_rOlDEJjBLUqfqyGUFLTXGJJYVF/view?usp=drivesdk",
+      "corners": [
+        [
+          599.52001953125,
+          172.22999572753906
+        ],
+        [
+          3348.489990234375,
+          88.7300033569336
+        ],
+        [
+          3560.43994140625,
+          5413.259765625
+        ],
+        [
+          323.3399963378906,
+          5426.10009765625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-3",
+      "name": "Four of Swords",
+      "raw": "IMG_6354.jpg",
+      "file": "four-of-swords.jpg",
+      "raw_sha256": "26eea4db3847f8882676929c9647fa5687487900b4ad1a9dfd5b597037a16883",
+      "source_url": "https://drive.google.com/file/d/1JyCoN1MIPaO4afuBBQvdgPmJaAID5Mx0/view?usp=drivesdk",
+      "corners": [
+        [
+          529.0399780273438,
+          140.1300048828125
+        ],
+        [
+          3406.469970703125,
+          120.87000274658203
+        ],
+        [
+          3451.429931640625,
+          5426.1201171875
+        ],
+        [
+          387.739990234375,
+          5406.85009765625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "pentacles-0",
+      "name": "Ace of Coins",
+      "raw": "IMG_6355.jpg",
+      "file": "ace-of-coins.jpg",
+      "raw_sha256": "0fff78142ad276f06b1551d3dd161d4c449cc4ed2d042ae4e11da90947db9405",
+      "source_url": "https://drive.google.com/file/d/1dcCCtqf0ULMEXLlYcwAqyssog79T6pR6/view?usp=drivesdk",
+      "corners": [
+        [
+          394.5799865722656,
+          119.93000030517578
+        ],
+        [
+          3432.580078125,
+          -34.209999084472656
+        ],
+        [
+          3535.340087890625,
+          5688.52001953125
+        ],
+        [
+          272.54998779296875,
+          5630.72021484375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "cups-2",
+      "name": "Three of Cups",
+      "raw": "IMG_6356.jpg",
+      "file": "three-of-cups.jpg",
+      "raw_sha256": "93f0b44c0db95c112533e39a48589eaf6194ccf72975f0bd3646b98973fbb245",
+      "source_url": "https://drive.google.com/file/d/1D8iF5gbP-HA4_voHp802D-l0-tnOPKRQ/view?usp=drivesdk",
+      "corners": [
+        [
+          554.2899780273438,
+          113.76000213623047
+        ],
+        [
+          3515.219970703125,
+          152.2899932861328
+        ],
+        [
+          3476.679931640625,
+          5534.6201171875
+        ],
+        [
+          374.45001220703125,
+          5521.77978515625
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "major-7",
+      "name": "The Chariot",
+      "raw": "IMG_6357.jpg",
+      "file": "the-chariot.jpg",
+      "raw_sha256": "784126c656cee75370aafddef1ac9f90a684e843821075dea5665e4fd1ab84b2",
+      "source_url": "https://drive.google.com/file/d/1Bt_7NANgdIIdWp3Flp4Ko8vSp0TxQk1J/view?usp=drivesdk",
+      "corners": [
+        [
+          444.27,
+          0.0
+        ],
+        [
+          3490.67,
+          0.0
+        ],
+        [
+          3570.0,
+          5553.33
+        ],
+        [
+          364.93,
+          5553.33
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "wands-2",
+      "name": "Three of Wands",
+      "raw": "IMG_6358.jpg",
+      "file": "three-of-wands.jpg",
+      "raw_sha256": "9800e9eeaef9cc0e7848e381670cbd3640a9699c077971210d6de37c746aff0b",
+      "source_url": "https://drive.google.com/file/d/1rkVNkbvm-gioYSdx_K4-wnb8NIvyxUc4/view?usp=drivesdk",
+      "corners": [
+        [
+          516.2899780273438,
+          368.9800109863281
+        ],
+        [
+          3406.56005859375,
+          362.54998779296875
+        ],
+        [
+          3393.719970703125,
+          5577.89013671875
+        ],
+        [
+          426.3699951171875,
+          5577.89013671875
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "cups-8",
+      "name": "Nine of Cups",
+      "raw": "IMG_6359.jpg",
+      "file": "nine-of-cups.jpg",
+      "raw_sha256": "7ac160be4f0ac5e1773fa3e0b211025c59b78484646d08aed6602aa4a28f07e8",
+      "source_url": "https://drive.google.com/file/d/1I-OvgCQOQze7gkU-v0wWrxfX-GPEA3mo/view?usp=drivesdk",
+      "corners": [
+        [
+          560.489990234375,
+          292.95001220703125
+        ],
+        [
+          3489.300048828125,
+          273.67999267578125
+        ],
+        [
+          3425.070068359375,
+          5489.02001953125
+        ],
+        [
+          521.9500122070312,
+          5482.58984375
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-5",
+      "name": "Six of Swords",
+      "raw": "IMG_6360.jpg",
+      "file": "six-of-swords.jpg",
+      "raw_sha256": "3a19ca935b096e751e7cf68616fc6bc591d4cef54fc34adb6769f63e46b19fb3",
+      "source_url": "https://drive.google.com/file/d/1Id1N3GLH5OIL3w5T2ev_F6TyQpXgnqID/view?usp=drivesdk",
+      "corners": [
+        [
+          777.2100219726562,
+          273.7200012207031
+        ],
+        [
+          3596.830078125,
+          292.989990234375
+        ],
+        [
+          3596.830078125,
+          5495.47998046875
+        ],
+        [
+          578.0999755859375,
+          5463.35986328125
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "detected printed border; visually reviewed",
+      "title_verified": true,
+      "notes": []
+    },
+    {
+      "id": "swords-8",
+      "name": "Nine of Swords",
+      "raw": "IMG_6462.jpg",
+      "file": "nine-of-swords.jpg",
+      "raw_sha256": "6d5cdd78440a548171f69519d25cac2027c727575990080e89b501fb51f71cad",
+      "source_url": "https://drive.google.com/file/d/1s5NxkcZcOHLY7dZOAV5DRk4TPMjNwmC6/view?usp=drivesdk",
+      "corners": [
+        [
+          649.6,
+          201.6
+        ],
+        [
+          2654.4,
+          212.8
+        ],
+        [
+          2721.6,
+          3785.6
+        ],
+        [
+          537.6,
+          3852.8
+        ]
+      ],
+      "coordinate_space": [
+        3024,
+        4032
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "swords-7",
+      "name": "Eight of Swords",
+      "raw": "IMG_6463.jpg",
+      "file": "eight-of-swords.jpg",
+      "raw_sha256": "171de7c3e97c73755a42d6e23815db2b3ac179f5df3c714014b1f5faeda16713",
+      "source_url": "https://drive.google.com/file/d/1lWysMxreO7vSZyZcIDKfntIF_ZCicH9Y/view?usp=drivesdk",
+      "corners": [
+        [
+          672.0,
+          44.8
+        ],
+        [
+          2676.8,
+          112.0
+        ],
+        [
+          2744.0,
+          3875.2
+        ],
+        [
+          492.8,
+          3864.0
+        ]
+      ],
+      "coordinate_space": [
+        3024,
+        4032
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "cups-12",
+      "name": "Queen of Cups",
+      "raw": "IMG_6464.jpg",
+      "file": "queen-of-cups.jpg",
+      "raw_sha256": "ca52374eef0c9793ade6d717a5aa499221955f329e295f56a92880843bd54ee2",
+      "source_url": "https://drive.google.com/file/d/1cxIDgi1A__K-fSj0DdrXmOwknhthuVvz/view?usp=drivesdk",
+      "corners": [
+        [
+          448.0,
+          235.2
+        ],
+        [
+          2408.0,
+          201.6
+        ],
+        [
+          2520.0,
+          3841.6
+        ],
+        [
+          436.8,
+          3852.8
+        ]
+      ],
+      "coordinate_space": [
+        3024,
+        4032
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-4",
+      "name": "Five of Wands",
+      "raw": "IMG_6465.jpg",
+      "file": "five-of-wands.jpg",
+      "raw_sha256": "e4c6bfc0f740759dcf2005e74dc21ce0ca075307ed13c9a98f4ad1727736b68c",
+      "source_url": "https://drive.google.com/file/d/1RjNuhnDBX0frTERpg24bh-AdFE0wlznA/view?usp=drivesdk",
+      "corners": [
+        [
+          358.4,
+          201.6
+        ],
+        [
+          2441.6,
+          134.4
+        ],
+        [
+          2632.0,
+          3864.0
+        ],
+        [
+          414.4,
+          3886.4
+        ]
+      ],
+      "coordinate_space": [
+        3024,
+        4032
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "swords-11",
+      "name": "Knight of Swords",
+      "raw": "IMG_6466.jpg",
+      "file": "knight-of-swords.jpg",
+      "raw_sha256": "3697265c798487c8e63a0d620f4e40928780f1f8b2ad32cdcce9a71416e18702",
+      "source_url": "https://drive.google.com/file/d/1rG9h30EOC-rKdV5b4hxX5XEWzbFwSZh4/view?usp=drivesdk",
+      "corners": [
+        [
+          604.8,
+          112.0
+        ],
+        [
+          2609.6,
+          134.4
+        ],
+        [
+          2688.0,
+          3841.6
+        ],
+        [
+          537.6,
+          3852.8
+        ]
+      ],
+      "coordinate_space": [
+        3024,
+        4032
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-12",
+      "name": "Queen of Wands",
+      "raw": "IMG_6468.jpg",
+      "file": "queen-of-wands.jpg",
+      "raw_sha256": "4b768ffc4a346b806a91d079fb48f2585ad1c99bc61a10dc90628d12fe5de0d2",
+      "source_url": "https://drive.google.com/file/d/1SJ7nz1MrIO5ylQlyHFY_HRXxmEvVCNl_/view?usp=drivesdk",
+      "corners": [
+        [
+          459.2,
+          134.4
+        ],
+        [
+          2419.2,
+          100.8
+        ],
+        [
+          2598.4,
+          3796.8
+        ],
+        [
+          403.2,
+          3875.2
+        ]
+      ],
+      "coordinate_space": [
+        3024,
+        4032
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "pentacles-9",
+      "name": "Ten of Coins",
+      "raw": "IMG_6469.jpg",
+      "file": "ten-of-coins.jpg",
+      "raw_sha256": "b5f4183a93c9fa91128db3bb20f7bf3f8829e5bad83686fab27909dc8ada854f",
+      "source_url": "https://drive.google.com/file/d/1Vz0aqwwUzF3OHQ25-a-JUlcZ5vi0pOrP/view?usp=drivesdk",
+      "corners": [
+        [
+          548.8,
+          134.4
+        ],
+        [
+          2419.2,
+          156.8
+        ],
+        [
+          2553.6,
+          3763.2
+        ],
+        [
+          324.8,
+          3819.2
+        ]
+      ],
+      "coordinate_space": [
+        3024,
+        4032
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-19",
+      "name": "The Sun",
+      "raw": "IMG_6470.jpg",
+      "file": "the-sun.jpg",
+      "raw_sha256": "05103ae8d7cd1eecb533cbfce91e70f3f3f40682c5110105482560a8a325dd05",
+      "source_url": "https://drive.google.com/file/d/1MAji1Sp9nJKn6pjbPIM5kjT5t3NIE4PZ/view?usp=drivesdk",
+      "corners": [
+        [
+          555.33,
+          0.0
+        ],
+        [
+          3665.2,
+          0.0
+        ],
+        [
+          3728.67,
+          5553.33
+        ],
+        [
+          380.8,
+          5648.53
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "cups-1",
+      "name": "Two of Cups",
+      "raw": "IMG_6471.jpg",
+      "file": "two-of-cups.jpg",
+      "raw_sha256": "eadfe58be1a28fa663371b896d18cfb94a2e0273c56f36ef1ee24f3a0a6548e2",
+      "source_url": "https://drive.google.com/file/d/1zdNdbNGf4q92Bde8vLbkD7FycS7VVZH9/view?usp=drivesdk",
+      "corners": [
+        [
+          682.27,
+          0.0
+        ],
+        [
+          3712.8,
+          0.0
+        ],
+        [
+          3696.93,
+          5394.67
+        ],
+        [
+          523.6,
+          5474.0
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "major-8",
+      "name": "Strength",
+      "raw": "IMG_6472.jpg",
+      "file": "strength.jpg",
+      "raw_sha256": "52d09aea806d52b31e66ea5bd9d7657ea7071af18fa8c780b0e6b2f09b874d82",
+      "source_url": "https://drive.google.com/file/d/1Tt8yy1v2UWIAzwMBPK3PgQLxs_UjEymc/view?usp=drivesdk",
+      "corners": [
+        [
+          634.67,
+          0.0
+        ],
+        [
+          3681.07,
+          0.0
+        ],
+        [
+          3760.4,
+          5537.47
+        ],
+        [
+          491.87,
+          5569.2
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "pentacles-13",
+      "name": "King of Coins",
+      "raw": "IMG_6473.jpg",
+      "file": "king-of-coins.jpg",
+      "raw_sha256": "3776f44e3325135431bd16ae1a67233eafd4b77243fc6c0b13d21f22d104d10a",
+      "source_url": "https://drive.google.com/file/d/1WZKlGgBbVFfL4zZn5pJzITQezYGYGU4z/view?usp=drivesdk",
+      "corners": [
+        [
+          793.33,
+          158.67
+        ],
+        [
+          3744.53,
+          111.07
+        ],
+        [
+          3744.53,
+          5410.53
+        ],
+        [
+          666.4,
+          5474.0
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "pentacles-12",
+      "name": "Queen of Coins",
+      "raw": "IMG_6474.jpg",
+      "file": "queen-of-coins.jpg",
+      "raw_sha256": "0b415bbea6a9b477e7026d5522ce886c3c2b9dd3d69df332a021842c758246d3",
+      "source_url": "https://drive.google.com/file/d/1LuFVBNVdtJX_qJG7thPOBM5L96M7_mnU/view?usp=drivesdk",
+      "corners": [
+        [
+          602.93,
+          190.4
+        ],
+        [
+          3554.13,
+          158.67
+        ],
+        [
+          3585.87,
+          5442.27
+        ],
+        [
+          602.93,
+          5442.27
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-3",
+      "name": "The Empress",
+      "raw": "IMG_6475.jpg",
+      "file": "the-empress.jpg",
+      "raw_sha256": "275aaab79a95843fd928cf2fb904d709d8125ccb8cbfa1bb02d02bf12543ed3e",
+      "source_url": "https://drive.google.com/file/d/1o_Lj_FWbMAYA3HmN2xnTrI-ceQxIB5nX/view?usp=drivesdk",
+      "corners": [
+        [
+          618.8,
+          0.0
+        ],
+        [
+          3792.13,
+          0.0
+        ],
+        [
+          3792.13,
+          5537.47
+        ],
+        [
+          618.8,
+          5521.6
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "swords-12",
+      "name": "Queen of Swords",
+      "raw": "IMG_6476.jpg",
+      "file": "queen-of-swords.jpg",
+      "raw_sha256": "271867a4eca6309632419df25d1a06d386f92abd02d48499b9410e7166f4d4f9",
+      "source_url": "https://drive.google.com/file/d/1YoYB6nZgC0DnL-UAnME_Qng0EJKCS8EJ/view?usp=drivesdk",
+      "corners": [
+        [
+          682.27,
+          349.07
+        ],
+        [
+          3474.8,
+          285.6
+        ],
+        [
+          3570.0,
+          5426.4
+        ],
+        [
+          602.93,
+          5442.27
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-15",
+      "name": "The Devil",
+      "raw": "IMG_6477.jpg",
+      "file": "the-devil.jpg",
+      "raw_sha256": "571acc8c11141b9a5532616103fd25a6d0ec19bec24aa354a63a492dc5a261c0",
+      "source_url": "https://drive.google.com/file/d/1wP1AZr2Mvp9mRzxCTTCHyN-wVuZhoIIh/view?usp=drivesdk",
+      "corners": [
+        [
+          523.6,
+          0.0
+        ],
+        [
+          3665.2,
+          0.0
+        ],
+        [
+          3585.87,
+          5632.67
+        ],
+        [
+          428.4,
+          5632.67
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "swords-0",
+      "name": "Ace of Swords",
+      "raw": "IMG_6478.jpg",
+      "file": "ace-of-swords.jpg",
+      "raw_sha256": "8f71328848d476ce8b5157c3abb178b2ede21c1d90683654c13a0aa9f8c0bbb7",
+      "source_url": "https://drive.google.com/file/d/18ZDkndNxxiTxTike1_osu2Q1lUa25-3J/view?usp=drivesdk",
+      "corners": [
+        [
+          476.0,
+          142.8
+        ],
+        [
+          3490.67,
+          158.67
+        ],
+        [
+          3395.47,
+          5474.0
+        ],
+        [
+          444.27,
+          5474.0
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "cups-9",
+      "name": "Ten of Cups",
+      "raw": "IMG_6479.jpg",
+      "file": "ten-of-cups.jpg",
+      "raw_sha256": "6866aa41827b01e75b0aa47832afe29e48ffcdc91294524595b3360b6fbe4582",
+      "source_url": "https://drive.google.com/file/d/1cogWAWa_NsSvcQ7hzmFIVRp8TXZqiXTH/view?usp=drivesdk",
+      "corners": [
+        [
+          682.27,
+          63.47
+        ],
+        [
+          3617.6,
+          111.07
+        ],
+        [
+          3728.67,
+          5426.4
+        ],
+        [
+          650.53,
+          5505.73
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "pentacles-1",
+      "name": "Two of Coins",
+      "raw": "IMG_6480.jpg",
+      "file": "two-of-coins.jpg",
+      "raw_sha256": "278c578eb8870d226e10516e6aa6a1ec5e0e98d86dd187a9d4371b420a3cb252",
+      "source_url": "https://drive.google.com/file/d/1h7O-AuX_wb2Rlk9YWFwbNbFkX4ezCh6j/view?usp=drivesdk",
+      "corners": [
+        [
+          396.67,
+          0.0
+        ],
+        [
+          3570.0,
+          0.0
+        ],
+        [
+          3490.67,
+          5442.27
+        ],
+        [
+          349.07,
+          5458.13
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "major-13",
+      "name": "Death",
+      "raw": "IMG_6481.jpg",
+      "file": "death.jpg",
+      "raw_sha256": "7e721c4ed9807983ef9cdc051d5a1ab1573e9b92bd137d527d0f2937653f60cb",
+      "source_url": "https://drive.google.com/file/d/1wrGBslyDqTIccVt9Ws7hB_4uhIK07Aid/view?usp=drivesdk",
+      "corners": [
+        [
+          444.27,
+          238.0
+        ],
+        [
+          3332.0,
+          238.0
+        ],
+        [
+          3300.27,
+          5442.27
+        ],
+        [
+          396.67,
+          5442.27
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-1",
+      "name": "Two of Wands",
+      "raw": "IMG_6482.jpg",
+      "file": "two-of-wands.jpg",
+      "raw_sha256": "41d3228597225b7b84fae033bea025f77d8cb04375637a3668a8cf8d8ef1e126",
+      "source_url": "https://drive.google.com/file/d/1JsPKw5WFpLjPGv9taD9o5A4nH-7Np3YE/view?usp=drivesdk",
+      "corners": [
+        [
+          793.33,
+          0.0
+        ],
+        [
+          3744.53,
+          158.67
+        ],
+        [
+          3649.33,
+          5442.27
+        ],
+        [
+          602.93,
+          5394.67
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "pentacles-6",
+      "name": "Seven of Coins",
+      "raw": "IMG_6483.jpg",
+      "file": "seven-of-coins.jpg",
+      "raw_sha256": "a78b068c0bf76c1669174409d5e1bf0948186449c43e4403d68b18108d5361b1",
+      "source_url": "https://drive.google.com/file/d/1CHMoZOpFJ-UR_GKbc7v4gWQYv6xLTOg9/view?usp=drivesdk",
+      "corners": [
+        [
+          777.47,
+          126.93
+        ],
+        [
+          3585.87,
+          253.87
+        ],
+        [
+          3554.13,
+          5347.07
+        ],
+        [
+          491.87,
+          5378.8
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-7",
+      "name": "Eight of Wands",
+      "raw": "IMG_6484.jpg",
+      "file": "eight-of-wands.jpg",
+      "raw_sha256": "aea2b7c236e2ef560987f7f545f7f0a7ae7508084c2dac28ceaf2b9dd912da45",
+      "source_url": "https://drive.google.com/file/d/1GbQqndr-HMTSmzWAuNSvA_VBIDwvbM50/view?usp=drivesdk",
+      "corners": [
+        [
+          682.27,
+          95.2
+        ],
+        [
+          3649.33,
+          111.07
+        ],
+        [
+          3617.6,
+          5442.27
+        ],
+        [
+          523.6,
+          5442.27
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-12",
+      "name": "The Hanged Man",
+      "raw": "IMG_6485.jpg",
+      "file": "the-hanged-man.jpg",
+      "raw_sha256": "0846671540859ff20e8f3eafc40879062215a9eb1c5b700f11da2b9e90506110",
+      "source_url": "https://drive.google.com/file/d/1F_TUm-6gkuFv4FnmWC0m2mFMtvHWHxHD/view?usp=drivesdk",
+      "corners": [
+        [
+          571.2,
+          95.2
+        ],
+        [
+          3617.6,
+          95.2
+        ],
+        [
+          3554.13,
+          5410.53
+        ],
+        [
+          587.07,
+          5426.4
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-5",
+      "name": "The Hierophant",
+      "raw": "IMG_6486.jpg",
+      "file": "the-hierophant.jpg",
+      "raw_sha256": "a12e73ab4dc08eefce5a96bd7febd95af8fe37153c7d6943f783a02e98ec3f83",
+      "source_url": "https://drive.google.com/file/d/1Bolb9pEZBmvHEqDfVo2kK_VOWPenL9oT/view?usp=drivesdk",
+      "corners": [
+        [
+          444.27,
+          47.6
+        ],
+        [
+          3522.4,
+          95.2
+        ],
+        [
+          3332.0,
+          5585.07
+        ],
+        [
+          238.0,
+          5474.0
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-18",
+      "name": "The Moon",
+      "raw": "IMG_6487.jpg",
+      "file": "the-moon.jpg",
+      "raw_sha256": "800d26dc2dd0c4cdb06770caedbef31c1b69b46bba9374a43ad5110a1e64f3de",
+      "source_url": "https://drive.google.com/file/d/1lTh4F9hpzt31Xs6jFHAorbvMnZUs3gG2/view?usp=drivesdk",
+      "corners": [
+        [
+          539.47,
+          253.87
+        ],
+        [
+          3458.93,
+          428.4
+        ],
+        [
+          3284.4,
+          5505.73
+        ],
+        [
+          317.33,
+          5537.47
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-21",
+      "name": "The World",
+      "raw": "IMG_6488.jpg",
+      "file": "the-world.jpg",
+      "raw_sha256": "e534f60219da6c6718ef2ad383022c14d5ce85cce9b0400d9fa6b68c06e20cbf",
+      "source_url": "https://drive.google.com/file/d/1bsNWGTQljMAGXiAz8n-UagIR0SN7SFAv/view?usp=drivesdk",
+      "corners": [
+        [
+          507.73,
+          238.0
+        ],
+        [
+          3363.73,
+          364.93
+        ],
+        [
+          3316.13,
+          5474.0
+        ],
+        [
+          333.2,
+          5442.27
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "cups-0",
+      "name": "Ace of Cups",
+      "raw": "IMG_6489.jpg",
+      "file": "ace-of-cups.jpg",
+      "raw_sha256": "b4d77c86316814791c1880abc2a96083157adf908ad8c6c398f4efee7fbfdc3b",
+      "source_url": "https://drive.google.com/file/d/1AOyizPMDkGPG61cVJAT9jydWyJVjQ_Pe/view?usp=drivesdk",
+      "corners": [
+        [
+          555.33,
+          174.53
+        ],
+        [
+          3570.0,
+          190.4
+        ],
+        [
+          3379.6,
+          5505.73
+        ],
+        [
+          476.0,
+          5426.4
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-14",
+      "name": "Temperance",
+      "raw": "IMG_6490.jpg",
+      "file": "temperance.jpg",
+      "raw_sha256": "408f5e2c8b159ea82b361f6662006e19e464a8d7b7f92a3ae4d4244066392a0a",
+      "source_url": "https://drive.google.com/file/d/1u440C34ChkscAGk92VcQqjsxyjerzjRi/view?usp=drivesdk",
+      "corners": [
+        [
+          682.27,
+          238.0
+        ],
+        [
+          3665.2,
+          349.07
+        ],
+        [
+          3458.93,
+          5394.67
+        ],
+        [
+          666.4,
+          5394.67
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-11",
+      "name": "Knight of Wands",
+      "raw": "IMG_6491.jpg",
+      "file": "knight-of-wands.jpg",
+      "raw_sha256": "e1ef75630de571287402d1443f88b64827c8fa837490bc859f93eef2a35e72ac",
+      "source_url": "https://drive.google.com/file/d/1XcuNobkakzOqha-paqI0DQ08YM1SqZmO/view?usp=drivesdk",
+      "corners": [
+        [
+          476.0,
+          111.07
+        ],
+        [
+          3570.0,
+          158.67
+        ],
+        [
+          3522.4,
+          5505.73
+        ],
+        [
+          507.73,
+          5553.33
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "pentacles-10",
+      "name": "Knave of Coins",
+      "raw": "IMG_6492.jpg",
+      "file": "knave-of-coins.jpg",
+      "raw_sha256": "1a2e42cca3ee01926f347e79c8d33e55375f070f2bd595f519da4a50ad396cc3",
+      "source_url": "https://drive.google.com/file/d/1iS_A_10P75x3PBrmzDQHwtQTXV5AQwL_/view?usp=drivesdk",
+      "corners": [
+        [
+          349.07,
+          190.4
+        ],
+        [
+          3443.07,
+          158.67
+        ],
+        [
+          3411.33,
+          5553.33
+        ],
+        [
+          460.13,
+          5569.2
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-8",
+      "name": "Nine of Wands",
+      "raw": "IMG_6493.jpg",
+      "file": "nine-of-wands.jpg",
+      "raw_sha256": "c400fe2fb3f4c91332dde8fa9797c35d85d470c03977c81f03d21374a90f2adc",
+      "source_url": "https://drive.google.com/file/d/1Qgr2lISWO7r_5otwFDpBrA7lVi_vOL-m/view?usp=drivesdk",
+      "corners": [
+        [
+          476.0,
+          95.2
+        ],
+        [
+          3411.33,
+          190.4
+        ],
+        [
+          3363.73,
+          5362.93
+        ],
+        [
+          428.4,
+          5378.8
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-9",
+      "name": "The Hermit",
+      "raw": "IMG_6494.jpg",
+      "file": "the-hermit.jpg",
+      "raw_sha256": "d9934c2e92fec997d8cd8e37354c1ffc593fb485a858098d64ac5b4d5dd24912",
+      "source_url": "https://drive.google.com/file/d/1FTnw0X6woz15zYTRVgXmQe6dQobuGsTh/view?usp=drivesdk",
+      "corners": [
+        [
+          729.87,
+          285.6
+        ],
+        [
+          3554.13,
+          428.4
+        ],
+        [
+          3411.33,
+          5442.27
+        ],
+        [
+          507.73,
+          5394.67
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-4",
+      "name": "The Emperor",
+      "raw": "IMG_6495.jpg",
+      "file": "the-emperor.jpg",
+      "raw_sha256": "33fd2f127da32cf94a67a65c80872e9ea905971215284ea0597bdd1fd7e34d65",
+      "source_url": "https://drive.google.com/file/d/1gcZFqSzyrn8qEIhRNd0jVCKsmypOA1pZ/view?usp=drivesdk",
+      "corners": [
+        [
+          840.93,
+          190.4
+        ],
+        [
+          3633.47,
+          317.33
+        ],
+        [
+          3474.8,
+          5267.73
+        ],
+        [
+          602.93,
+          5236.0
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-11",
+      "name": "Justice",
+      "raw": "IMG_6496.jpg",
+      "file": "justice.jpg",
+      "raw_sha256": "30b6740ecd6ed4d3fe9c087df06e190dc462f4f2c0ce03fe5389051325f356c1",
+      "source_url": "https://drive.google.com/file/d/1f7xJnTSEYBe3Pq8xDULffFArcUdmElV0/view?usp=drivesdk",
+      "corners": [
+        [
+          714.0,
+          126.93
+        ],
+        [
+          3665.2,
+          222.13
+        ],
+        [
+          3570.0,
+          5474.0
+        ],
+        [
+          555.33,
+          5474.0
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-13",
+      "name": "King of Wands",
+      "raw": "IMG_6497.jpg",
+      "file": "king-of-wands.jpg",
+      "raw_sha256": "13e785c6ca11066ecb81bd073f1ce0248be85c2890db63cc398ec07a2fbef534",
+      "source_url": "https://drive.google.com/file/d/1AKEgBprvB_eMZ51XLRNLHoZpaetIiBrs/view?usp=drivesdk",
+      "corners": [
+        [
+          618.8,
+          111.07
+        ],
+        [
+          3554.13,
+          111.07
+        ],
+        [
+          3522.4,
+          5394.67
+        ],
+        [
+          539.47,
+          5394.67
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "wands-3",
+      "name": "Four of Wands",
+      "raw": "IMG_6498.jpg",
+      "file": "four-of-wands.jpg",
+      "raw_sha256": "8c664df25f15162fd2b107adc04935a36d7ae3e82120e2415a0fafe074ffb3ee",
+      "source_url": "https://drive.google.com/file/d/14fQSuablkadXN7tc8H0nke-aI4ecHYII/view?usp=drivesdk",
+      "corners": [
+        [
+          571.2,
+          317.33
+        ],
+        [
+          3363.73,
+          380.8
+        ],
+        [
+          3220.93,
+          5188.4
+        ],
+        [
+          444.27,
+          5236.0
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "major-2",
+      "name": "The High Priestess",
+      "raw": "IMG_6499.jpg",
+      "file": "the-high-priestess.jpg",
+      "raw_sha256": "2d25d2718a432d264448d9facf523793737d94e9e1a86c0d7514c600e87c2d9f",
+      "source_url": "https://drive.google.com/file/d/10PCmGyLuxG5EfuhtUHS5IfocpUYg4OUX/view?usp=drivesdk",
+      "corners": [
+        [
+          571.2,
+          0.0
+        ],
+        [
+          3633.47,
+          79.33
+        ],
+        [
+          3522.4,
+          5442.27
+        ],
+        [
+          539.47,
+          5426.4
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "wands-10",
+      "name": "Knave of Wands",
+      "raw": "IMG_6500.jpg",
+      "file": "knave-of-wands.jpg",
+      "raw_sha256": "a809b01281abc41580d3ab82088919eff8be24e4c693cac2ff037646864c7cc5",
+      "source_url": "https://drive.google.com/file/d/1X4vzio6f-_IjSzXrnsjpu-WotmG3Ym_b/view?usp=drivesdk",
+      "corners": [
+        [
+          444.27,
+          0.0
+        ],
+        [
+          3506.53,
+          47.6
+        ],
+        [
+          3538.27,
+          5585.07
+        ],
+        [
+          317.33,
+          5600.93
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "major-0",
+      "name": "The Fool",
+      "raw": "IMG_6501.jpg",
+      "file": "the-fool.jpg",
+      "raw_sha256": "932d429aaa8bb4de00c2c6f8021db5b41cb98151c52b4e7e02b96ae68ad230d4",
+      "source_url": "https://drive.google.com/file/d/1gTpxGKLqt4I2JZdT49yWun4Kvs7Ppy-F/view?usp=drivesdk",
+      "corners": [
+        [
+          460.13,
+          0.0
+        ],
+        [
+          3585.87,
+          0.0
+        ],
+        [
+          3570.0,
+          5569.2
+        ],
+        [
+          460.13,
+          5569.2
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork.",
+        "Source photo reaches or clips the top printed border. Missing source pixels have not been invented; a retake can improve the edge."
+      ]
+    },
+    {
+      "id": "major-1",
+      "name": "The Magician",
+      "raw": "IMG_6502.jpg",
+      "file": "the-magician.jpg",
+      "raw_sha256": "e314a7814f510d38d379dadea02ec2475ef9ed6e91e08d0696ec97e8dec5f066",
+      "source_url": "https://drive.google.com/file/d/16S5n9wl3hQqPfY5A5LCR2zIw_niVEOlk/view?usp=drivesdk",
+      "corners": [
+        [
+          698.13,
+          142.8
+        ],
+        [
+          3506.53,
+          158.67
+        ],
+        [
+          3538.27,
+          5410.53
+        ],
+        [
+          476.0,
+          5347.07
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "cups-11",
+      "name": "Knight of Cups",
+      "raw": "IMG_6503.jpg",
+      "file": "knight-of-cups.jpg",
+      "raw_sha256": "6f834c383def56405583f98c87b1d09cd505963e706d20f65a679dcd49986fb3",
+      "source_url": "https://drive.google.com/file/d/1LBvYnMknJ96jhNZ5kpuMJeH4rMUbfkEL/view?usp=drivesdk",
+      "corners": [
+        [
+          587.07,
+          174.53
+        ],
+        [
+          3585.87,
+          238.0
+        ],
+        [
+          3427.2,
+          5378.8
+        ],
+        [
+          602.93,
+          5347.07
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "cups-5",
+      "name": "Six of Cups",
+      "raw": "IMG_6504.jpg",
+      "file": "six-of-cups.jpg",
+      "raw_sha256": "e96099190cc1219402aa6643f869127baaf9379ddfa0419016411671f96ef143",
+      "source_url": "https://drive.google.com/file/d/1HILelYz6qQVo_QnHKrU0UFeS0yNPX8bG/view?usp=drivesdk",
+      "corners": [
+        [
+          476.0,
+          95.2
+        ],
+        [
+          3458.93,
+          269.73
+        ],
+        [
+          3252.67,
+          5378.8
+        ],
+        [
+          444.27,
+          5378.8
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    },
+    {
+      "id": "pentacles-7",
+      "name": "Eight of Coins",
+      "raw": "IMG_6505.jpg",
+      "file": "eight-of-coins.jpg",
+      "raw_sha256": "f745550fb9431d2d650a2b7b43152eac759bb810f3f9a5bdcde318a24beb8007",
+      "source_url": "https://drive.google.com/file/d/1YAC0frtgppYHHk0EHXjmNwiW61wVlfHc/view?usp=drivesdk",
+      "corners": [
+        [
+          507.73,
+          158.67
+        ],
+        [
+          3379.6,
+          158.67
+        ],
+        [
+          3347.87,
+          5188.4
+        ],
+        [
+          571.2,
+          5188.4
+        ]
+      ],
+      "coordinate_space": [
+        4284,
+        5712
+      ],
+      "rotation": 0,
+      "method": "manual border review",
+      "title_verified": true,
+      "notes": [
+        "Original photo has uneven lighting; glare retained where present to avoid reconstructing artwork."
+      ]
+    }
+  ]
+}

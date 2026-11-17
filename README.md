@@ -1,37 +1,31 @@
-# Ink & Intuition ✦
+# Ink & Intuition
 
-A personal, phone-friendly tarot **learning** app (not a tarot reading app).
+A standalone, upright-only learning app for the owner's Ink & Intuition deck. This continues the working implementation in PR #1.
 
-## Included
-
-- All 78 traditional tarot cards, with concise *upright-only* meanings and reflection prompts
-- Searchable Major Arcana and Minor Arcana library; suit and learned-status filters
-- Tap-to-flip study mode, sequential or random study, and "mark learned" progress
-- Four-choice upright-meaning quiz and total correct-answer count
-- Interactive flip-card Q&A lessons covering Major/Minor Arcana, the four suits and their elements, court cards, and symbolic tarot numerology (0–10)
-- Short randomized lesson mini-tests with immediate answer explanations
-- A clear distinction between traditional tarot associations and actual Ink & Intuition illustration details
-- Turquoise, deep teal and gold styling with responsive small-screen layout
-- Browser-local progress storage; no registration, tracking, readings, spreads or reversals
+- All 78 cards with processed original deck photography and traceable card mappings.
+- Card library with suit/progress filters and Page/Pentacles search aliases for printed Knave/Coins names.
+- Artwork-first flip-to-answer study, sequential/random practice and learned-card tracking.
+- Four-choice meaning quizzes, 26 study lessons, and five-question mini tests.
+- Structured Major/Minor Arcana, four suits, courts, numerology and deck-specific study.
+- Local browser progress for cards, quizzes, completed lessons and mini-test scores.
+- Responsive aqua, cream, gold and coral styling. No spreads, reversals or backend.
 
 ## Run
 
-Open `index.html` in a browser, or serve this folder with a simple static server (for example `python -m http.server 8000` and visit `http://localhost:8000`). Hosting is **not** configured or deployed by these changes.
+Open `index.html`, or serve this directory with `python -m http.server 4173` and visit `http://localhost:4173`. No installation/build is needed to run the app.
 
-## Original card art (not yet imported)
+## Documentation
 
-The app works without image files using a symbolic fallback. Symbolic fallback is a temporary placeholder, not a representation of the owner's illustrated deck. To use the owner's 78 actual Ink & Intuition illustrations, add files under `assets/cards/` with these names:
+- [App structure and local storage](docs/APP-STRUCTURE.md)
+- [Image-processing workflow and source limitations](docs/IMAGE-PROCESSING.md)
+- [All 78 card mappings and crop records](docs/card-image-mapping.json)
+- [Original Drive inventory from PR #1](docs/original-image-inventory.json)
+- [Validation and remaining review](docs/VALIDATION.md)
 
-- Major Arcana: `major-00.png` through `major-21.png` (The Fool through The World)
-- Each suit (`cups`, `wands`, `swords`, `pentacles`): `suit-01.png` through `suit-14.png`, ordered Ace, Two–Ten, Page, Knight, Queen, King.
+Original raw photos stay untouched and separate from processed assets. Some source glare and clipped edges remain; no missing art was invented. The approved UI mockup must still be supplied for exact design comparison.
 
-Only add images owned or licensed for this purpose. Never substitute unrelated tarot artwork and claim it is the original deck.
+## Checks
 
-## Privacy and review
+`python scripts/validate_assets.py` (Pillow required). For browser checks: `npm ci && npm test` (system Chromium; override with `CHROMIUM_PATH` if needed). Dev dependencies are not part of the running static app.
 
-Progress is stored in localStorage under `ink-intuition-v1` and is unique to each browser/device. Clearing site data removes that progress. The GitHub repository is currently **public**, so do not commit personal journals or other private material. To make it private, change visibility under repository Settings.
-
-This implementation is on a review branch and does not merge to `main` or deploy automatically. Review it before merging.
-## Original scope
-
-This remains the originally specified Ink & Intuition learning experience: 78 cards; turquoise styling; upright meanings only; interactive flip-to-answer study; tests/mini-quizzes; full suits, Arcana, court ranks, and tarot numerology. No spreads and no reversals. The user does not require private GitHub visibility, and the app intentionally collects no personal information. The owner's distinct card images must be added before image-specific recognition and symbol-study questions can be grounded in their actual art.
+The existing `ink-intuition-v1` storage key and card IDs are preserved. Progress is stored only in this browser/device. The candidate is on the owner-approved `work/ink-intuition-refinement` review branch. No merge or deployment has been performed; those require separate owner approval.
