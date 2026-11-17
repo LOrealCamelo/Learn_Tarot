@@ -1,0 +1,470 @@
+/* Clear liquid glass: reflected edges and mild refraction, with no frosted blur. */
+:root{--clear-glass-shadow:0 8px 24px #17072c33,inset 1px 1px 1px #ffffffb3,inset -1px -1px 1px #ffffff66,inset 0 0 8px #ffffff18;--clear-glass-fill:linear-gradient(125deg,#ffffff16 0%,#ffffff05 35%,#ffffff02 65%,#ffffff12 100%)}
+body{background:radial-gradient(ellipse at 20% 40%,#a628b477,transparent 65%),linear-gradient(145deg,#371274,#63208f 50%,#742c92)}
+.main-page:has(.art-page){background:transparent}
+.hero-copy h1{white-space:normal;font-size:clamp(40px,5.2vw,70px);line-height:1.14;max-width:650px}
+.home-hero{min-height:420px}.phone-journey-heading{display:none}
+.fresh-panel,.feature-grid .fresh-panel,.more-grid .fresh-panel,.art-grid .fresh-panel,.glass,.listbutton,.reading-board,.slot.opened,.result:not(.birth-report),.fresh-filter,.bottomdock,.nav,.btn,.btn.cream,.chip,.tooltile,.deck-card{background:var(--clear-glass-fill);border:1px solid #ffffff80;box-shadow:var(--clear-glass-shadow);color:#fff9fe;backdrop-filter:url('#liquid-refraction');-webkit-backdrop-filter:url('#liquid-refraction');isolation:isolate}
+.fresh-panel{--panel-ink:#fff9fe;--panel-accent:#fff;outline:0}.fresh-panel:hover,.picture-tile:hover,.extra-card:hover{box-shadow:0 10px 24px #17072c44,inset 1px 1px 1px #ffffffd9,inset -1px -1px 1px #ffffff80}
+.panel-title,.panel-description,.panel-meta,.panel-progress{color:#fff9fe;text-shadow:0 1px 2px #200c4270}
+.panel-arrow{background:linear-gradient(135deg,#ffffff20,#ffffff04);border:1px solid #ffffffb0;box-shadow:inset 1px 1px 2px #fff8,0 2px 5px #12052833;color:#fff}
+.glass h2,.glass h3,.glass h4,.glass .field,.glass .muted,.listbutton small,.listbutton strong,.fresh-filter h3,.result:not(.birth-report) h2,.result:not(.birth-report) h3{color:#fff9fe}
+.glass .field input,.glass .field select,.glass .field textarea{color:#351750;background:#fff9fc}
+.listbutton .glyph{background:linear-gradient(135deg,#ffffff1f,#ffffff03);border:1px solid #ffffff66}
+.reading-board{background:linear-gradient(135deg,#ffffff0a,#ffffff02);border-color:#ffffff80}.reading-board h3{color:#fff9fe}.slot.opened{background:linear-gradient(140deg,#ffffff12,#ffffff03);color:#fff9fe}.slot .tarot-image,.tarot-image{background:transparent}.slot .card-back{background:repeating-linear-gradient(45deg,#60249c,#60249c 9px,#7130ac 9px,#7130ac 10px)}
+.fresh-filter .vibe-target{background:linear-gradient(135deg,#ffffff15,#ffffff03);border:1px solid #ffffff88;box-shadow:inset 1px 1px 1px #fff7,0 3px 5px #220c3826;color:#fff9fe}.fresh-filter .vibe-target.is-selected,.chip.active{background:linear-gradient(135deg,#ffffff32,#ffffff08);color:#fff;border-color:#ffffffd0;box-shadow:inset 1px 1px 2px #ffffffc0,0 2px 7px #220c3833}
+.bottomdock{border-width:1px;background:linear-gradient(135deg,#ffffff12,#ffffff03);backdrop-filter:url('#liquid-refraction');-webkit-backdrop-filter:url('#liquid-refraction');box-shadow:var(--clear-glass-shadow)}
+.bottomdock button,.nav button{color:#fff9fe}.bottomdock button.current,.nav button.selected{background:linear-gradient(135deg,#ffffff28,#ffffff05);border:1px solid #ffffffc0;box-shadow:inset 1px 1px 2px #ffffffb3,inset -1px -1px 1px #ffffff66,0 2px 8px #1a052d33;color:#fff}
+.topbar{background:linear-gradient(110deg,#511991c9,#6d2598b3);backdrop-filter:none;-webkit-backdrop-filter:none;border-bottom:1px solid #ffffff66}
+.favorite-card{background:transparent;box-shadow:var(--clear-glass-shadow)}
+.btn,.btn.cream{color:#fff9fe;transition:transform .18s,box-shadow .18s}.btn:hover:not(:disabled){transform:translateY(-1px);box-shadow:inset 1px 1px 2px #ffffffcc,inset -1px -1px 1px #ffffff80,0 5px 14px #17072c44}.btn:active:not(:disabled){transform:translateY(1px)}
+.phone-journey-heading{font-family:Kaushan,cursive;font-weight:400;font-size:36px;line-height:1.15;color:#fff;margin:15px 0 20px;text-shadow:0 2px 10px #35106f55}
+@supports not (backdrop-filter:url('#liquid-refraction')){.fresh-panel,.glass,.listbutton,.reading-board,.bottomdock{backdrop-filter:none}}
+@media(max-width:750px){.phone-journey-heading{display:block}.hero-copy h1{font-size:40px}.bottomdock button.current{padding-left:8px;padding-right:8px}}
+@media(prefers-reduced-motion:reduce){.btn,.fresh-panel{transition:none!important}}
+@media print{.birth-report{color:#222!important}.birth-report .panel-title{color:#222!important}}
+.bottomdock button{text-shadow:0 1px 3px #1a052de6,0 0 8px #1a052db3}.bottomdock button svg{filter:drop-shadow(0 1px 1px #1a052d99)}
+
+/* Original starry landscape only on the Web Moon calendar/Cosmos page. */
+body[data-page="cosmos"]{background:#0b0718 url('assets/cosmos-night-sky.png') center bottom/cover fixed no-repeat}
+body[data-page="cosmos"]:before{opacity:0}
+body[data-page="cosmos"] .moon-calendar-day{background:var(--clear-glass-fill);border:1px solid #ffffff70;color:#fff9fe;box-shadow:inset 1px 1px 1px #ffffff80}
+body[data-page="cosmos"] .moon-calendar-day small{color:#f6ecfc}
+body[data-page="cosmos"] .moon-event-day,body[data-page="cosmos"] .moon-day-selected{background:linear-gradient(135deg,#ffffff24,#ffffff05);border-color:#fff;outline-color:#fff8}
+body[data-page="cosmos"] .moon-selected-day,body[data-page="cosmos"] .lunar-health-note{background:linear-gradient(135deg,#ffffff12,#ffffff03);border:1px solid #ffffff60;color:#fff9fe}
+body[data-page="cosmos"] .lunar-daily-table{background:transparent;color:#fff9fe}
+body[data-page="cosmos"] .lunar-daily-table thead{background:#20103899}
+body[data-page="cosmos"] .lunar-daily-table button,body[data-page="cosmos"] .lunar-daily-table small{color:#fff9fe}
+body[data-page="cosmos"] .lunar-principal-row{background:#ffffff12}
+body[data-page="cosmos"] .lunar-daily-table th,body[data-page="cosmos"] .lunar-daily-table td{border-color:#ffffff35}
+/* A clear dark tint beneath calendar text preserves contrast over bright stars. */
+body[data-page="cosmos"] .moon-calendar{background:linear-gradient(135deg,#170c3640,#120b2c24)}
+body[data-page="cosmos"] .moon-calendar-day{background:linear-gradient(135deg,#0f092d38,#0c08251f)}
+body[data-page="cosmos"] .moon-weekday,body[data-page="cosmos"] .moon-calendar h2,body[data-page="cosmos"] .moon-calendar h3{color:#fff;text-shadow:0 1px 3px #070311cc}
+
+/* Shared scenic starting backdrop for every tab; artwork and clear panels stay intact. */
+body,body[data-page="cosmos"]{background:#0b0718;isolation:isolate}
+body:before,body[data-page="cosmos"]:before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;opacity:1;background:url('assets/cosmos-night-sky.png') center bottom/cover no-repeat}
+@media(max-width:750px){body:before,body[data-page="cosmos"]:before{background-position:right bottom}}
+@media print{body:before,body[data-page="cosmos"]:before{display:none}body{background:white!important}.birth-report{background:white!important;color:#222!important}}
+.natal-tool-heading .page-title{font-size:clamp(40px,4.2vw,62px);line-height:1.2;text-shadow:none}
+.explore-card[data-tool="natal"] .panel-title{font-size:24px}
+.birth-time-hint{flex-basis:100%;margin:0;font-size:14px;line-height:1.5;color:#fff5fd}
+/* Full-figure navigation portrait and clear home wordmark. */
+.topbar__inner{min-height:124px;padding-top:6px;padding-bottom:6px}
+.brand.portrait-brand{display:grid;place-items:center;flex:0 0 108px;min-width:108px;width:108px;height:108px;border:1px solid #ffffffa0;border-radius:50%;overflow:hidden;background:linear-gradient(135deg,#ffffff15,#ffffff03);box-shadow:inset 1px 1px 1px #fff9,0 4px 14px #15072444}
+.brand.portrait-brand img{display:block;width:88%;height:88%;object-fit:contain;object-position:center;transform:none;border-radius:0}
+.home-hero{min-height:470px;margin:0;padding:32px 0 40px;display:flex;align-items:center;overflow:hidden;background:transparent;border:0;box-shadow:none}
+.hero-copy{width:min(860px,64%);max-width:none;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}
+.hero-wordmark{display:flex;align-items:baseline;gap:.18em;font-size:clamp(40px,5.35vw,80px);line-height:1.2;white-space:nowrap;color:#fff;margin:0 0 9px}
+.wordmark-spiritual{font-family:'DM Sans',Arial,sans-serif;font-weight:650;letter-spacing:-.06em;text-shadow:none}
+.wordmark-vibez{position:relative;display:inline-block;padding-right:.42em;font-family:Pacifico,cursive;font-size:1.1em;font-weight:400;color:#ff8cd5;letter-spacing:-.045em;transform:rotate(-3deg);text-shadow:2px 2px 0 #8e1d76,4px 4px 0 #1b0839;-webkit-text-stroke:.35px #ffd0ef}
+.wordmark-vibration{position:absolute;right:-.01em;top:.18em;width:.35em;height:.75em;overflow:visible;fill:none;stroke:#ffe3a4;stroke-width:2.1;stroke-linecap:round;transform:rotate(3deg)}
+.header-identity{display:flex;align-items:center;gap:20px;flex-shrink:0}
+.header-tagline{display:flex;flex-direction:column;gap:4px;margin:0;color:#fff9fe;font-family:'DM Sans',Arial,sans-serif;font-size:20px;font-weight:600;line-height:1.3;letter-spacing:0;text-shadow:none;white-space:nowrap}
+.header-tagline strong{color:#ff9edd;font-weight:750}
+.header-tagline span+span{font-size:14px;color:#ffe3a4;font-weight:500;letter-spacing:.025em}
+.hero-wordmark{margin-bottom:22px}
+.hero-copy h1{font-family:Kaushan,cursive;font-size:clamp(25px,2.9vw,43px);font-weight:400;font-style:normal;letter-spacing:0;white-space:nowrap;line-height:1.3;max-width:none;margin:0 0 14px;text-shadow:none}
+.hero-copy>p{font-size:16px;line-height:1.6;font-weight:450;max-width:600px;margin:0;color:#f2e8f8}
+.home-hero>.hero-character{right:2.5%;width:32%;height:100%;max-height:490px;object-fit:contain;object-position:center bottom}
+.hero-actions{gap:12px;margin-top:22px}
+.btn,.hero-actions .btn,.hero-actions .btn.cream{font-family:'DM Sans',Arial,sans-serif;font-size:15px;line-height:1.3;font-weight:650;letter-spacing:.015em;text-shadow:none;padding:12px 20px}
+.hero-actions .btn{border:1px solid #ffffff99;background:linear-gradient(135deg,#180b3833,#180b3808);box-shadow:inset 1px 1px 1px #ffffff70,0 4px 12px #0d032e33}
+.hero-button-icon{display:inline-flex;align-items:center;justify-content:center}.hero-button-icon svg{width:19px;height:19px;stroke-width:1.8}
+.section-heading h2,.page-title,.tool-group h2,.reading-board h3,.phone-journey-heading,.panel-title,.panel-description,.panel-meta,.panel-progress,.bottomdock button,.nav button{ text-shadow:none }
+body[data-page="cosmos"] .moon-weekday,body[data-page="cosmos"] .moon-calendar h2,body[data-page="cosmos"] .moon-calendar h3{text-shadow:none}
+.bottomdock button svg{filter:none}.phone-welcome{display:none}
+@media(min-width:751px){html{scroll-padding-top:146px}button,a,input,textarea,.birth-narrative h2{scroll-margin-top:146px}.birth-sidebar{top:144px;max-height:calc(100vh - 164px)}}
+@media(min-width:751px) and (max-width:1000px){.hero-copy{width:66%}.hero-wordmark{font-size:clamp(36px,5vw,50px)}.hero-copy h1{font-size:27px}.hero-actions{gap:8px}.hero-actions .btn{font-size:13px;padding:11px 13px}.home-hero>.hero-character{width:31%;right:1%}}
+@media(min-width:751px) and (max-width:1100px){.header-identity{gap:12px}.header-tagline{font-size:17px}.header-tagline span+span{font-size:12px}.brand.portrait-brand{flex-basis:80px;min-width:80px;width:80px;height:80px}.nav button{font-size:11px;padding:9px 7px;gap:5px}.topbar__inner{gap:10px}}
+@media(min-width:751px) and (max-width:900px){.brand.portrait-brand{flex-basis:68px;min-width:68px;width:68px;height:68px}.header-identity{gap:10px}.header-tagline{font-size:16px}.header-tagline span+span{font-size:11px}.nav button{padding:9px 6px}.top-actions{display:none}}
+@media(max-width:750px){.header-identity{gap:13px;min-width:0}.header-tagline{font-size:clamp(15px,4.4vw,20px);white-space:normal}.header-tagline span+span{font-size:clamp(10px,2.8vw,13px);letter-spacing:0}.header-tagline span{display:block}.top-actions{display:none}.phone-welcome .hero-wordmark{margin-bottom:17px}}
+@media(max-width:750px){.topbar__inner{min-height:88px}.brand.portrait-brand{flex-basis:76px;min-width:76px;width:76px;height:76px}.home-hero{display:none}.phone-welcome{display:block;margin:16px 0 20px;padding:16px 0;border:0;border-radius:0;background:transparent;box-shadow:none}.phone-welcome .hero-wordmark{font-size:clamp(29px,9.1vw,42px)}.phone-journey-heading{display:block;font-size:clamp(22px,5.8vw,32px);white-space:nowrap;line-height:1.3;margin:0}.home-greeting{width:min(100%,340px);margin:0 auto 20px;border-radius:0}}
+/* Complete feature and spread directories use the same clear illustrated surfaces. */
+.tool-group .tiles{align-items:stretch}
+.tiles .explore-card{min-height:185px;height:100%;margin:0;padding:18px 16px;gap:12px;border-radius:26px}
+.explore-card .panel-illustration{flex-basis:94px;width:94px;height:94px}
+.explore-card .panel-title{font-size:22px;letter-spacing:-.4px;line-height:1.15}
+.explore-card .panel-description{font-size:14px;line-height:1.45}
+.explore-card .panel-copy{width:100%;overflow-wrap:anywhere}
+.explore-card .panel-arrow{width:27px;height:27px;flex-basis:27px;font-size:28px}
+.illustrated-spread .panel-illustration{width:68px;height:68px;flex-basis:68px}
+.illustrated-spread .panel-illustration img{position:absolute;width:200%;height:200%;max-width:none;left:calc(var(--cell-x)*-100%);top:calc(var(--cell-y)*-100%)}
+.result:not(.birth-report) .result-item{background:var(--clear-glass-fill);border:1px solid #ffffff40}
+.result:not(.birth-report) .result-field>strong,.result:not(.birth-report) .link{color:#fff1fb}
+@media(max-width:1050px){.tiles .explore-card{flex-direction:column;align-items:flex-start;min-height:265px;padding:16px 16px 38px}.explore-card .panel-illustration{align-self:center}.explore-card .panel-copy{flex:1}.explore-card .panel-arrow{position:absolute;right:12px;bottom:12px}}
+@media(max-width:420px){.tiles .explore-card{padding:13px 12px 38px;gap:10px}.explore-card .panel-title{font-size:21px}.explore-card .panel-description{font-size:13px}.explore-card[data-tool="natal"] .panel-title{font-size:23px}.explore-card .panel-illustration{flex-basis:84px;width:84px;height:84px}}
+/* One shared, clear navigation dock; no illustrated Home footer behind it. */
+.scenic{display:none}.footer{padding:24px 22px 118px;color:#f5e8fb}
+.bottomdock{display:flex;position:fixed;left:50%;right:auto;bottom:10px;transform:translateX(-50%);width:min(760px,calc(100% - 16px));padding:6px;justify-content:space-around;border-radius:40px;background:var(--clear-glass-fill);border:1px solid #ffffff80;box-shadow:var(--clear-glass-shadow);backdrop-filter:url('#liquid-refraction');-webkit-backdrop-filter:url('#liquid-refraction')}
+.bottomdock button{flex:1;min-width:0;padding:8px 5px;font-size:12px}.bottomdock button span{display:block;margin-bottom:3px}.bottomdock button svg{width:24px;height:24px}
+.reference-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}.reference-grid>.glass{margin:0}.learning-reference{margin:22px 0}.learning-reference h2{font-size:27px}.learning-reference h3{font-size:23px}.learning-reference summary{font-size:20px;font-weight:700;cursor:pointer}.reference-jumps{display:flex;gap:16px;flex-wrap:wrap}.reference-jumps a{color:#ffe3a4}
+.birth-input-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:20px;align-items:start}.birth-input-layout:has(.birth-form:only-child){display:block}.current-planets{position:sticky;top:146px;font-size:13px}.current-planets table{width:100%;border-collapse:collapse}.current-planets th,.current-planets td{padding:9px 3px;text-align:left;border-bottom:1px solid #ffffff33}.current-planets small{display:block}
+.manual-birth-location{margin:18px 0;padding:15px;border:1px solid #ffffff55;border-radius:16px}.manual-birth-location summary{cursor:pointer;font-weight:700}.manual-birth-location>.field{margin-top:16px}
+.asteroid-picker{border:1px solid #ffffff66;border-radius:18px;margin:20px 0;padding:15px}.asteroid-choices{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.asteroid-choices label{display:flex;align-items:center;gap:10px;padding:12px;border:1px solid #ffffff40;border-radius:14px;background:var(--clear-glass-fill)}.asteroid-choices small{display:block;margin-top:5px}.asteroid-report{color:#fff9fe;background:var(--clear-glass-fill)}.asteroid-report h2,.asteroid-report h3{color:#fff9fe}
+.moon-day-emoji svg{display:block;width:38px;height:38px;margin:auto}.moon-detail h2{display:flex;align-items:center;gap:12px}
+@media(max-width:1100px){.birth-input-layout{grid-template-columns:minmax(0,1fr)}.current-planets{position:static}.current-planets table{font-size:15px}}
+@media(max-width:1000px){.topbar .nav{display:none}.topbar__inner{justify-content:space-between}.top-actions{display:none}}
+@media(max-width:600px){.reference-grid{grid-template-columns:minmax(0,1fr)}.asteroid-choices{grid-template-columns:minmax(0,1fr)}.bottomdock{padding:5px 3px}.bottomdock button{font-size:9px;padding:8px 2px}.bottomdock button.current{padding-left:3px;padding-right:3px}.bottomdock button svg{width:22px;height:22px}.hero-copy>p{font-size:15px}}
+.brand-wordmark{display:block;width:min(100%,480px);line-height:1;margin:0 0 24px;white-space:normal}
+.brand-wordmark img{display:block;object-fit:contain;width:100%;height:auto;max-width:100%;background:transparent}
+.phone-welcome .brand-wordmark{width:100%;max-width:420px;margin-bottom:22px}
+.result h3 svg{width:38px;height:38px;vertical-align:middle}
+.phone-welcome-copy{font:15px/1.6 'DM Sans',Arial,sans-serif;color:#fff5fd;margin:16px 0 0}
+@media print{.asteroid-report,.asteroid-report .glass,.asteroid-report h2,.asteroid-report h3{background:white!important;color:#222!important;box-shadow:none}}
+
+/* Home is one extended reading room, with the guide painted into the scene. */
+body[data-page="home"]{background:#28112f}
+body[data-page="home"]:before{background:radial-gradient(ellipse at 15% 20%,#70334d40,transparent 58%),linear-gradient(#28112f,#31162e 60%,#24112d)}
+.home-room-hero{position:relative;width:100vw;margin-left:calc(50% - 50vw);aspect-ratio:2/1;border:0;outline:0;box-shadow:none;background:transparent}
+.home-room-scene{position:absolute;inset:0;border:0;box-shadow:none;background:url('assets/home-mystic-room-arabic.png') center/cover no-repeat;mask-image:linear-gradient(#000 0 87%,transparent 100%);-webkit-mask-image:linear-gradient(#000 0 87%,transparent 100%)}
+.home-room-brand{position:absolute;z-index:1;top:clamp(26px,4vw,64px);left:clamp(24px,2vw,40px);width:clamp(280px,29vw,440px)}
+.home-room-brand .brand-wordmark{width:100%;margin:0}
+.room-welcome.hero-copy{width:100%;max-width:960px;padding:0 0 20px;margin:-8px 0 0;position:relative}
+.room-welcome.hero-copy h1{white-space:normal}
+.room-welcome.hero-copy>p{max-width:850px}
+@media(max-width:750px){
+ .home-room-hero{height:620px;aspect-ratio:auto}
+ .home-room-scene{top:80px;background-size:auto 540px;background-position:56% top;mask-image:linear-gradient(transparent 0,#000 8%,#000 88%,transparent 100%);-webkit-mask-image:linear-gradient(transparent 0,#000 8%,#000 88%,transparent 100%)}
+ .home-room-brand{top:18px;left:14px;width:min(288px,76vw)}
+ .room-welcome.hero-copy{max-width:none;margin:0;padding-bottom:12px}
+ .room-welcome.hero-copy h1{font-size:clamp(24px,6.5vw,32px)}
+ .room-welcome.hero-copy>p{font-size:15px;max-width:none}
+ .room-welcome .hero-actions{flex-wrap:wrap}
+ .room-welcome .hero-actions .btn{font-size:14px;padding:11px 16px}
+}
+
+/* A light portal opens beneath the desk; cards retain clear, unfrosted glass. */
+body[data-page="home"]{--home-desk-edge:calc(124px + 50vw);position:relative;background:#eee5f7}
+body[data-page="home"]:before{position:absolute;background:linear-gradient(to bottom,#eee5f7 0 calc(var(--home-desk-edge) - 190px),#d7c4ee calc(var(--home-desk-edge) - 70px),#eee5f7 calc(var(--home-desk-edge) + 500px),#f6e8f1)}
+body[data-page="home"] .container{position:relative;isolation:isolate}
+body[data-page="home"] .container:before{content:"";position:absolute;z-index:-1;pointer-events:none;top:calc(50vw - 70px);left:50%;transform:translateX(-50%);width:100vw;height:clamp(800px,70vw,1250px);background:url('assets/home-light-portal.png') center/cover no-repeat;mask-image:linear-gradient(transparent,#000 16%,#000 78%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 16%,#000 78%,transparent)}
+body[data-page="home"] .room-welcome h1,body[data-page="home"] .room-welcome>p,body[data-page="home"] .section-heading h2,body[data-page="home"] .section-heading a,body[data-page="home"] .footer{color:#35174d}
+body[data-page="home"] .fresh-panel{--panel-ink:#35174d;--panel-accent:#603282;border-color:#754a986e;box-shadow:0 8px 24px #5936731f,inset 1px 1px 1px #ffffffd9,inset -1px -1px 1px #ffffff88}
+body[data-page="home"] .panel-title,body[data-page="home"] .panel-description,body[data-page="home"] .panel-meta,body[data-page="home"] .panel-progress{color:#35174d;text-shadow:none}
+body[data-page="home"] .panel-arrow,body[data-page="home"] .btn{color:#35174d;border-color:#754a9880;text-shadow:none}
+body[data-page="home"] .bottomdock{border-color:#754a9880;box-shadow:0 6px 20px #32164c2e,inset 1px 1px 2px #ffffffd9,inset -1px -1px 1px #fff9}
+body[data-page="home"] .bottomdock button{color:#35174d;text-shadow:0 1px 1px #ffffffb3}
+body[data-page="home"] .bottomdock button svg{filter:drop-shadow(0 1px 1px #ffffffb3)}
+body[data-page="home"] .bottomdock button.current{border-color:#754a9899;color:#35174d}
+@media(max-width:750px){
+ body[data-page="home"]{--home-desk-edge:708px}
+ body[data-page="home"] .container:before{top:550px;height:1250px;background-size:auto 100%}
+}
+
+/* Readable portal-colored navigation and a welcome on the quiet room wall. */
+:root{--site-header-height:clamp(104px,7vw,144px)}
+html{scroll-padding-top:calc(var(--site-header-height) + 20px)}
+.topbar{background:linear-gradient(110deg,#f4ecfff5,#eadcf7f2,#f7e9f2f5);border-bottom:1px solid #9e7cb680;box-shadow:0 4px 18px #43235b1f;backdrop-filter:none}
+.topbar__inner{height:var(--site-header-height);min-height:var(--site-header-height);max-width:none;padding:12px clamp(18px,3vw,64px);gap:clamp(14px,2vw,40px);justify-content:space-between}
+.topbar .brand.portrait-brand{width:clamp(76px,5vw,108px);height:clamp(76px,5vw,108px);min-width:clamp(76px,5vw,108px);flex-basis:clamp(76px,5vw,108px);border-color:#7b53968c}
+.topbar .nav{margin-left:auto;gap:clamp(3px,.5vw,12px);padding:5px;border-color:#8861a080}
+.topbar .nav button{font-size:clamp(16px,1.05vw,28px);font-weight:700;line-height:1.25;min-height:50px;padding:12px clamp(10px,1vw,22px);gap:9px;color:#35174d;border:1px solid transparent}
+.topbar .nav button svg{width:clamp(24px,1.25vw,38px);height:clamp(24px,1.25vw,38px)}
+.topbar .nav button.selected{color:#35174d;border-color:#8b65a580;background:linear-gradient(135deg,#ffffff55,#ffffff16)}
+.topbar .top-actions{display:flex;align-items:center;margin-left:0}
+.topbar .top-actions button{display:flex;align-items:center;justify-content:center;gap:8px;color:#35174d;width:44px;height:44px}
+.topbar .top-actions button svg{width:26px;height:26px}
+.topbar .feature-label{display:none}
+.home-room-brand{top:10%;left:2vw;width:25vw}
+.home-room-brand .brand-wordmark{width:100%;max-width:none;margin:0}
+.home-room-brand .room-welcome{width:100%;max-width:none;margin:clamp(16px,1.6vw,32px) 0 0;padding:0}
+body[data-page="home"] .home-room-brand .room-welcome h1{font-size:clamp(24px,1.7vw,60px);line-height:1.25;white-space:normal;color:#fff4f7;margin-bottom:.65em}
+body[data-page="home"] .home-room-brand .room-welcome>p{font-size:clamp(14px,.95vw,32px);line-height:1.6;max-width:90%;color:#fff4f7;text-shadow:0 1px 2px #28112f88}
+/* Supplied Bright Sunshine Caps lettering, with its tuning-fork i. */
+.home-wall-tagline{position:relative;width:93%;max-width:100%;margin:12px auto 0;padding-top:19%;padding-bottom:24%}
+.home-wall-tagline .tagline-lettering{display:block;width:100%;height:auto}
+.home-wall-tagline .tagline-sun,.home-wall-tagline .tagline-sun-top,.home-wall-tagline .tagline-cards,.home-wall-tagline .tagline-ball{position:absolute;display:block;height:auto;object-fit:contain}
+.home-wall-tagline .tagline-sun{right:0;bottom:-6px;width:35%}
+.home-wall-tagline .tagline-sun-top{right:0;top:-7.3%;width:27%}
+.home-wall-tagline .tagline-cards{left:0;top:0;width:23%}
+.home-wall-tagline .tagline-ball{left:0;bottom:-8px;width:30%}
+@media(min-width:1401px){
+ .home-room-brand{top:8%}
+ .home-room-brand .room-welcome{margin-top:8px}
+ body[data-page="home"] .home-room-brand .room-welcome h1{line-height:1.15;margin-bottom:.25em}
+ body[data-page="home"] .home-room-brand .room-welcome>p{line-height:1.4}
+ .home-wall-tagline{width:88%;margin-top:8px;padding-top:12%;padding-bottom:7%}
+ .home-wall-tagline .tagline-sun{width:25%;bottom:-4px;right:0}
+ .home-wall-tagline .tagline-sun-top{width:21%;right:0;top:-6%}
+ .home-wall-tagline .tagline-cards{width:20%;left:-3%}
+ .home-wall-tagline .tagline-ball{width:18%;bottom:-10px;left:-3%}
+}
+.home-quick-actions{margin:12px 0 24px;flex-wrap:wrap}
+body[data-page="home"]{--home-desk-edge:calc(var(--site-header-height) + 50vw)}
+body[data-page="home"] .container:before{top:var(--portal-top,calc(50vw - 70px))}
+.footer .creator-logo{display:block;width:clamp(180px,16vw,260px);height:auto;margin:0 auto;background:transparent}
+.content-card{min-width:0;margin:0 0 16px}
+.content-card>button{width:100%;margin-bottom:0}
+.content-card .content-actions{margin-top:8px}
+.content-actions{display:flex;flex-wrap:wrap;gap:6px;margin:10px 0 14px}
+.content-actions button{flex:1;min-width:0;min-height:44px;border:1px solid #ffffff80;border-radius:18px;background:#ffffff08;color:#fff9fe;padding:8px;font-size:12px;font-weight:700;line-height:1.3}
+body[data-page="home"] .content-actions button{color:#35174d;border-color:#754a9880}
+.share-preview{width:min(94vw,720px);max-height:92vh;overflow:auto;border:1px solid #8861a0;border-radius:24px;background:linear-gradient(120deg,#f4ecff,#f7e9f2);color:#35174d;padding:16px;box-shadow:0 12px 48px #14062580}
+.share-preview::backdrop{background:#1c1027a6}
+.share-preview-art{max-height:35vh;overflow:auto;margin:14px 0;border-radius:12px}
+.share-preview-art img{display:block;width:100%;height:auto;max-height:none;object-fit:contain;margin:0}
+.share-preview label{display:block;font-weight:700}.share-preview textarea{display:block;width:100%;max-height:90px;margin:8px 0;color:#35174d;background:#ffffff80;border:1px solid #8861a080;border-radius:12px;padding:12px;font:14px/1.5 'DM Sans',Arial,sans-serif}
+.share-preview-actions{display:grid;grid-template-columns:1fr 1fr;gap:8px}.share-preview .btn{display:flex;align-items:center;justify-content:center;min-height:44px;padding:10px;text-align:center;color:#35174d;border-color:#754a9880;background:#ffffff18;font-size:14px}
+@media(max-width:1400px){
+ .home-room-hero{display:flex;flex-direction:column;aspect-ratio:auto;height:auto;padding-top:22px;background:linear-gradient(110deg,#f4ecff,#eadcf7,#f7e9f2)}
+ .home-room-brand{position:relative;top:auto;left:auto;order:0;width:calc(100% - 32px);max-width:650px;margin:0 16px 24px}
+ .home-room-brand .brand-wordmark{width:min(420px,80vw)}
+ .home-wall-tagline{width:min(100%,420px);margin-top:12px;padding-top:min(19%,80px);padding-bottom:min(24%,101px)}
+ .home-room-brand .room-welcome{margin-top:18px}
+ body[data-page="home"] .home-room-brand .room-welcome h1{font-size:28px;color:#35174d}
+ body[data-page="home"] .home-room-brand .room-welcome>p{font-size:16px;line-height:1.6;max-width:none;color:#35174d;text-shadow:none}
+ .home-room-scene{position:relative;inset:auto;order:1;width:100%;height:auto;aspect-ratio:2/1;mask-image:linear-gradient(transparent,#000 8%,#000 88%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 8%,#000 88%,transparent)}
+}
+@media(max-width:1000px){
+ :root{--site-header-height:92px}
+ .topbar .brand.portrait-brand{width:68px;height:68px;min-width:68px;flex-basis:68px}
+ .topbar .nav{display:none}
+ .topbar .top-actions{display:flex;margin-left:auto}
+ .topbar .top-actions button{width:auto;padding:8px 12px;font-size:16px;font-weight:700}
+ .topbar .feature-label{display:inline}
+}
+@media(max-width:750px){
+ .home-room-brand .brand-wordmark{width:min(350px,86vw)}
+ body[data-page="home"] .home-room-brand .room-welcome h1{font-size:clamp(23px,6.4vw,30px)}
+ body[data-page="home"] .home-room-brand .room-welcome>p{font-size:15px}
+ .home-wall-tagline{width:100%;margin-top:12px;padding-top:19%;padding-bottom:24%}
+ .home-room-scene{height:540px;aspect-ratio:auto;background-size:auto 540px;background-position:56% top}
+ body[data-page="home"] .container:before{top:var(--portal-top,900px)}
+}
+
+/* Reference homepage: live text and six real feature controls, shared with native. */
+body[data-page="home"]{background:radial-gradient(ellipse at 46% 33%,#fff4fb 0,transparent 48%),radial-gradient(ellipse at 0 50%,#e8c6f5 0,transparent 65%),linear-gradient(125deg,#edddfa,#f5ddf4 65%,#dfcaf0);color:#48135e}
+body[data-page="home"]:before,body[data-page="home"] main.container:before,body[data-page="home"]>.footer,body[data-page="home"] #app>.footer{display:none}
+body[data-page="home"] main.container{max-width:none;padding:0 0 96px;overflow-x:clip}
+body[data-page="home"] .topbar{background:linear-gradient(115deg,#f1e3fbf5,#f4e4f8f5);border-bottom:1px solid #c5a5dc80;box-shadow:0 5px 24px #9664b51a}
+body[data-page="home"] .topbar__inner{height:86px;min-height:86px;padding:8px clamp(16px,4vw,64px)}
+body[data-page="home"] .topbar .brand.portrait-brand{width:66px;height:66px;min-width:66px;flex-basis:66px;background:#f8efff;border-color:#a67cbe80;box-shadow:0 4px 18px #8753a52b}
+body[data-page="home"] .topbar .nav{display:none}
+body[data-page="home"] .topbar .top-actions button{width:auto;height:auto;padding:10px;gap:10px;font-size:21px;font-weight:750}
+body[data-page="home"] .topbar .feature-label{display:inline}
+body[data-page="home"] .topbar .top-actions button svg{width:30px;height:30px}
+.mystic-home{max-width:1160px;margin:0 auto;padding:32px 24px 0;text-align:center}
+.mystic-intro{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:24px}
+.mystic-copy{min-width:0;position:relative;z-index:1}
+.mystic-copy .brand-wordmark{display:block;width:min(100%,450px);max-width:none;margin:0 auto 4px}
+.mystic-copy .brand-wordmark img{display:block;width:100%;height:auto;max-width:100%}
+.mystic-copy h1{font:400 clamp(43px,4.6vw,68px)/1.3 'Great Vibes',cursive;color:#4c0d5b;white-space:nowrap;margin:0 -8px;text-shadow:0 1px 0 #fff8}
+.mystic-copy p{font:550 clamp(16px,1.35vw,19px)/1.45 'DM Sans',Arial,sans-serif;max-width:510px;color:#46115b;margin:10px auto 0}
+.mystic-tarot-art{display:block;width:100%;height:auto;min-width:0;max-width:620px;margin:auto;filter:drop-shadow(0 8px 12px #ac74cc1c)}
+.home-flourish{display:flex;align-items:center;justify-content:center;width:min(58%,280px);height:20px;margin:-2px auto 0;gap:0}
+.home-flourish svg{width:100%;height:100%;overflow:visible}
+.home-flourish>span{display:none}
+.mystic-features{margin:12px auto 0;max-width:1040px}
+.mystic-features h2{display:flex;align-items:center;gap:14px;justify-content:center;margin:0 0 20px;color:#48135e;font:750 clamp(13px,1.6vw,21px)/1.35 'DM Sans',Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase}
+.mystic-features h2:before,.mystic-features h2:after{content:"";flex:1;max-width:85px;height:1px;background:linear-gradient(90deg,transparent,#cb8c3b)}
+.mystic-features h2:after{transform:rotate(180deg)}
+.home-feature-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.home-feature{min-width:0;min-height:108px;display:flex;align-items:center;justify-content:center;gap:9px;padding:12px;border:1px solid #e2b98c;border-radius:27px;background:radial-gradient(ellipse at 72% 25%,#fff8fbcc,transparent 75%),linear-gradient(115deg,#f4dcf5,#efc8f2 55%,#eddafa);box-shadow:inset 1px 2px 3px #fffe,inset -1px -2px 3px #fff9,0 6px 12px #875a9d36;color:#45115e;font:750 clamp(18px,1.8vw,26px)/1.12 'DM Sans',Arial,sans-serif;text-align:left;transition:transform .16s,box-shadow .16s}
+.home-feature:first-child{background:linear-gradient(115deg,#fce7f4,#f0b9f3 70%,#e8c5fb);border-color:#e8b78a}
+.home-feature:hover{transform:translateY(-2px);box-shadow:inset 1px 2px 3px #fffe,0 9px 20px #875a9d50}
+.home-feature:focus-visible{outline:3px solid #7b299f;outline-offset:4px}
+.home-feature-icon{position:relative;display:block;width:76px;height:76px;overflow:hidden;flex:0 0 auto}
+.home-feature-icon img{display:block;position:absolute;width:300%;height:200%;max-width:none;pointer-events:none}
+.home-feature-label{min-width:0;overflow-wrap:normal}
+.home-flourish--moons{width:min(78%,680px);height:29px;margin:28px auto 4px;gap:12px}
+.home-flourish--moons>span{display:block;flex:1;height:1px;background:linear-gradient(90deg,transparent,#c78d35)}
+.home-flourish--moons>span:last-child{transform:rotate(180deg)}
+.home-flourish--moons svg{width:164px;flex:0 0 164px}
+body[data-page="home"] .mystic-room-continuation{position:relative;inset:auto;width:100%;height:400px;margin:0;aspect-ratio:auto;background:url('assets/home-mystic-room-arabic.png') center top/cover no-repeat;mask-image:linear-gradient(transparent,#000 16%,#000 88%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 16%,#000 88%,transparent)}
+body[data-page="home"] .bottomdock{border:1px solid #fff9;box-shadow:inset 1px 1px 2px #fff,0 4px 18px #67368538;background:linear-gradient(135deg,#fff4,#f2d7ff30);backdrop-filter:url('#liquid-refraction');-webkit-backdrop-filter:url('#liquid-refraction')}
+@media(max-width:959px){
+ .mystic-home{max-width:700px;padding:14px 16px 0}
+ .mystic-intro{display:block}
+ .mystic-copy .brand-wordmark{width:min(86%,410px);margin-bottom:0}
+ .mystic-copy h1{font-size:clamp(38px,7.8vw,64px)}
+ .mystic-copy p{max-width:560px;font-size:clamp(14px,2.8vw,20px);line-height:1.38;margin-top:10px}
+ .mystic-tarot-art{width:min(100%,520px);margin:12px auto 0}
+ .mystic-features{margin-top:4px}
+ .mystic-features h2{font-size:clamp(12px,2.8vw,18px);gap:9px;margin-bottom:14px}
+ .home-feature-grid{gap:9px}
+ .home-feature{min-height:76px;border-radius:22px;font-size:clamp(15px,3.1vw,23px);padding:8px;gap:4px}
+ .home-feature-icon{width:54px;height:54px}
+}
+@media(max-width:480px){
+ body[data-page="home"] .topbar__inner{height:74px;min-height:74px;padding:6px 16px}
+ body[data-page="home"] .topbar .brand.portrait-brand{width:60px;height:60px;min-width:60px;flex-basis:60px}
+ body[data-page="home"] .topbar .top-actions button{font-size:16px;padding:8px;gap:8px}
+ body[data-page="home"] .topbar .top-actions button svg{width:25px;height:25px}
+ .mystic-home{padding:12px 16px 0}
+ .mystic-copy .brand-wordmark{width:88%}
+ .mystic-copy h1{font-size:clamp(34px,11vw,53px);margin:0 -9px}
+ .mystic-copy p{font-size:clamp(12.5px,3.55vw,17px);line-height:1.38;margin:9px auto 0;max-width:100%}
+ .home-flourish{height:15px;width:46%;margin:-3px auto 0}
+ .mystic-tarot-art{width:100%;margin-top:10px}
+ .mystic-features{margin-top:3px}
+ .mystic-features h2{font-size:clamp(10px,2.85vw,14px);letter-spacing:.13em;gap:8px;margin-bottom:14px;white-space:nowrap}
+ .home-feature-grid{gap:8px 6px}
+ .home-feature{min-height:59px;border-radius:17px;padding:6px 5px;gap:3px;font-size:clamp(11px,3.35vw,16px)}
+ .home-feature-icon{width:clamp(30px,10vw,48px);height:clamp(30px,10vw,48px)}
+ .home-flourish--moons{width:82%;height:22px;margin:19px auto 6px;gap:8px}
+ .home-flourish--moons svg{width:112px;flex-basis:112px}
+ body[data-page="home"] .mystic-room-continuation{height:540px;background-size:auto 540px;background-position:56% top}
+}
+@media(prefers-reduced-motion:reduce){.home-feature{transition:none}.home-feature:hover{transform:none}}
+@media(max-width:360px){.home-feature{padding-left:4px;padding-right:4px;gap:2px}}
+
+/* Restore the approved post-table portal on mobile; desktop stays unchanged. */
+.home-light-portal{display:none}
+@media(max-width:959px){
+ html[data-page="home"]{background:#eee5f7;scroll-padding-bottom:calc(104px + env(safe-area-inset-bottom,0px))}
+ body[data-page="home"]{--home-dock-clearance:calc(104px + env(safe-area-inset-bottom,0px))}
+ body[data-page="home"] main.container{padding-bottom:0}
+ body[data-page="home"] .bottomdock{bottom:calc(10px + env(safe-area-inset-bottom,0px))}
+ body[data-page="home"] .mystic-features,body[data-page="home"] .home-feature-grid,body[data-page="home"] .home-feature,body[data-page="home"] .home-light-portal button{scroll-margin-top:calc(var(--site-header-height) + 16px);scroll-margin-bottom:var(--home-dock-clearance)}
+ .home-light-portal{display:block;position:relative;isolation:isolate;margin-top:0;padding:12px 16px var(--home-dock-clearance);background:#eee5f7}
+ .home-light-portal:before{content:"";position:absolute;z-index:-1;pointer-events:none;top:-70px;left:0;width:100%;height:min(1250px,100%);background:url('assets/home-light-portal.png') center top/cover no-repeat;mask-image:linear-gradient(transparent,#000 16%,#000 78%,transparent);-webkit-mask-image:linear-gradient(transparent,#000 16%,#000 78%,transparent)}
+ .home-light-portal .feature-grid,.home-light-portal .favorite-grid,.home-light-portal .more-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .home-light-portal .home-quick-actions{margin-top:0}
+ .home-light-portal .content-card{min-width:0}
+}
+
+/* The same Home content uses the approved room composition on larger screens.
+   Size the entire 2:1 scene from its artwork, rather than clipping a fixed strip. */
+.home-responsive{display:contents}
+@media(min-width:960px){
+ .topbar .nav,body[data-page="home"] .topbar .nav{display:flex}
+ .topbar .top-actions,body[data-page="home"] .bottomdock,.bottomdock{display:none}
+ html[data-page="home"]{--site-header-height:86px;scroll-padding-bottom:24px}
+ body[data-page="home"] main.container{padding-bottom:0}
+ .home-responsive{display:grid;grid-template-areas:"room" "features";grid-template-columns:minmax(0,1fr);isolation:isolate}
+ /* Begin below the complete room image, so the desk cards and moons stay clear.
+    The first color matches the lavender mist along the artwork's lower edge. */
+ .home-responsive:after{content:"";grid-area:features;z-index:-1;pointer-events:none;background:linear-gradient(180deg,#d6bceb 0,#e1c7ef 80px,#edd7f4 190px,#f1dff5 100%)}
+ .home-responsive .mystic-home,.home-responsive .mystic-intro{display:contents}
+ body[data-page="home"] .mystic-room-continuation{grid-area:room;width:100%;height:auto;aspect-ratio:1774/887;background-size:contain;background-position:center;mask-image:none;-webkit-mask-image:none}
+ .home-responsive .mystic-copy{grid-area:room;align-self:start;justify-self:start;width:clamp(240px,25vw,520px);margin:clamp(24px,4vw,72px) 0 0 2vw;text-align:left}
+ .home-responsive .mystic-copy .brand-wordmark{width:100%;margin:0 0 12px}
+ .home-responsive .mystic-copy h1{font-size:clamp(27px,2.6vw,54px);line-height:1.25;margin:0;color:#fff4f7;text-shadow:0 1px 2px #28112f88}
+ .home-responsive .mystic-copy .home-flourish{margin:2px 0 8px;width:70%}
+ .home-responsive .mystic-copy p{font-size:clamp(14px,1.1vw,20px);line-height:1.5;color:#fff4f7;margin:0;text-shadow:0 1px 2px #28112f88}
+ .home-responsive .mystic-tarot-art{display:none}
+ .home-responsive .mystic-features{grid-area:features;width:100%;max-width:1664px;padding:clamp(44px,4vw,76px) 32px 32px;margin:0 auto}
+ .home-responsive .home-feature{font-size:clamp(18px,1.45vw,24px);gap:8px;padding:12px 8px}
+ .home-responsive .home-feature-icon{width:clamp(48px,4vw,64px);height:clamp(48px,4vw,64px)}
+}
+@media(min-width:1200px){
+ .home-responsive .home-feature-grid{grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+}
+
+/* Date tools only; approved Home compositions stay untouched. */
+.equinox-calendar .equinox-months{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0}
+.equinox-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px;margin:18px 0}
+.equinox-day{min-width:0;min-height:76px;border:1px solid #fff9;border-radius:12px;background:var(--clear-glass-fill);color:inherit;padding:8px 2px}
+.equinox-day strong,.equinox-day small{display:block}.equinox-day small{font-size:12px;margin-top:5px}
+.equinox-calendar [aria-pressed="true"]{outline:2px solid #ffcf69;outline-offset:1px}.equinox-day.is-today{border-color:#ffcf69}
+@media(max-width:480px){.equinox-grid{gap:3px}.equinox-day{min-height:64px}.equinox-day small{font-size:10px}.equinox-calendar{padding:12px}}
+.astro-map{width:100%;overflow:auto;overscroll-behavior:contain;border:1px solid #bfa1da;border-radius:16px;margin:18px 0;background:#160d32}
+.astro-map-canvas{min-width:100%}.astro-map svg{display:block;width:100%;height:auto}.astro-line{cursor:pointer}.astro-line:focus{outline:none;stroke-width:5}
+.astro-map-controls .controls{flex-wrap:wrap;gap:6px}.astro-map-controls [aria-pressed="true"]{outline:2px solid #ffcf69}.astro-report .reference-grid{gap:12px}
+.astro-places{padding-left:24px}.astro-places li{padding:12px 0;border-bottom:1px solid #ffffff44}
+.astro-crossing{cursor:pointer}.astro-crossing:focus{r:6;opacity:1}.astro-pin{pointer-events:none}
+.astro-guide{margin-top:32px}.astro-guide li{margin:12px 0}.astro-guide table{width:100%;border-collapse:collapse;table-layout:fixed}.astro-guide th,.astro-guide td{padding:10px 6px;text-align:left;border-bottom:1px solid #fff6;vertical-align:top;overflow-wrap:anywhere}
+
+
+/* One intentional export for a completed reading; never wrap individual cards. */
+.complete-reading-share{
+  max-width:100%;margin:24px 0 32px;padding:20px clamp(16px,3vw,28px);
+  border:1px solid #efd0db;border-radius:22px;
+  background:linear-gradient(125deg,#43304deb,#6d4568f0);
+  box-shadow:0 10px 26px #1b0c2c52;color:#fff5f8;
+}
+.complete-reading-share .complete-reading-label{
+  font-size:1.18rem;font-weight:800;letter-spacing:.02em;color:#fff2de;
+}
+.complete-reading-share p{margin:8px 0 12px;color:#f6e1ec;line-height:1.5}
+.complete-reading-share .content-actions{margin:0}
+.complete-reading-share .content-actions button{
+  flex:1 1 200px;font-size:.98rem;min-height:48px;padding:12px;
+  border:1px solid #f2d7e8;background:#fff6f2;color:#4c2b55;
+}
+.complete-reading-share .content-actions button:first-child{
+  background:linear-gradient(125deg,#ffd2eb,#eac3ff);
+}
+.complete-reading-share .content-actions button:focus-visible,
+.share-preview-actions summary:focus-visible{outline:3px solid #ffebaf;outline-offset:3px}
+.share-preview-actions details{grid-column:1/-1;border:1px solid #ac8cac;border-radius:11px;padding:10px 12px}
+.share-preview-actions details summary{cursor:pointer;font-weight:700;color:#543657}
+.share-preview-actions details .btn{display:inline-flex;margin:8px 8px 2px 0;min-width:180px}
+@media(max-width:550px){.complete-reading-share{padding:16px}.complete-reading-share .content-actions{flex-direction:column}.complete-reading-share .content-actions button{flex-basis:auto;width:100%}.share-preview-actions details .btn{width:100%;margin:8px 0 0}}
+
+
+/* Rune Casting Sanctuary — contemporary cast on carved-bone cloth. */
+.rune-sanctuary{max-width:1080px;margin:18px auto 34px;padding:clamp(16px,3.2vw,38px);border-radius:26px;background:radial-gradient(ellipse at 55% -25%,#92708099,transparent 55%),linear-gradient(145deg,#251c34,#4b3148 65%,#2b2739);border:1px solid #cfac8a;color:#fffcf4;box-shadow:0 18px 55px #1d0a2755;isolation:isolate}
+.rune-sanctuary *{box-sizing:border-box}
+.rune-sanctuary h2,.rune-sanctuary h3,.rune-sanctuary h4{color:#fff3da}
+.rune-heading{text-align:center;max-width:740px;margin:0 auto 24px}
+.rune-kicker{font-size:.78rem;text-transform:uppercase;letter-spacing:.13em;color:#f3c7aa;font-weight:800}
+.rune-heading h2{font:700 clamp(2.1rem,5vw,3.35rem)/1.15 Georgia,serif;margin:13px 0}
+.rune-heading p,.rune-sanctuary p{line-height:1.65}
+.rune-heading p{color:#f9e3e9}
+.rune-modes{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin:13px 0 24px}
+.rune-mode{cursor:pointer;border:1px solid #b89390;border-radius:15px;padding:14px 10px;background:#76536a65;color:#fff3e8;font-weight:800;min-height:72px}
+.rune-mode small{display:block;font-size:.76rem;font-weight:500;color:#f4d6e3;margin-top:7px}
+.rune-mode.selected{border-color:#ffe0a0;outline:2px solid #e5b782;background:#805a75}
+.rune-question{display:block;margin:17px 0;color:#fff5e7;font-weight:750}
+.rune-question span{font-weight:400;font-size:.82rem;color:#f0dce6}
+.rune-question input{display:block;margin-top:8px;width:100%;background:#fffaf5;color:#32273e;border:1px solid #e8d3db;border-radius:14px;font:inherit;padding:13px 15px;min-height:48px}
+.rune-settings{display:flex;flex-wrap:wrap;gap:10px 24px;margin-bottom:13px}
+.rune-settings label{display:flex;align-items:center;gap:10px;font-size:.9rem;color:#fff0e8}
+.rune-settings input{width:18px;height:18px;accent-color:#ad70a4}
+.rune-help,.rune-minor{font-size:.87rem;color:#f1dbe4;line-height:1.55}
+.rune-cloth{height:clamp(390px,51vw,580px);width:100%;position:relative;overflow:hidden;border-radius:46% 46% 43% 43% / 41% 43% 46% 47%;border:12px solid #a98479;background:radial-gradient(ellipse at center,#907a9c 0%,#695579 42%,#44334f 72%,#2d263b 100%);box-shadow:inset 0 0 0 2px #f1d3a99c,inset 0 0 48px #140e2270,0 15px 30px #1f12284f;touch-action:none;user-select:none;margin:12px auto}
+.rune-cloth::before{content:"";position:absolute;inset:8%;border:2px dashed #e9c68e75;border-radius:50%;pointer-events:none}
+.rune-cloth::after{content:"✶ ✦ ✶";position:absolute;top:7%;width:100%;text-align:center;font-family:serif;font-size:22px;letter-spacing:12px;color:#dbc1a26b;pointer-events:none}
+.rune-cloth-ring{position:absolute;inset:23%;border:1px solid #f7d8ab55;border-radius:50%;pointer-events:none}
+.rune-cloth-center{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font:78px Georgia,serif;color:#efc89a35;pointer-events:none}
+.rune-stones{position:absolute;inset:0}
+.rune-bone{position:absolute;top:0;left:0;display:flex;align-items:center;justify-content:center;width:56px;height:78px;z-index:2;border-radius:41% 52% 46% 51% / 34% 39% 42% 38%;border:2px solid #ad906f;background:radial-gradient(ellipse at 25% 18%,#fff4d7,#ecd6af 48%,#bea17d 92%);box-shadow:4px 8px 12px #160d2580,inset -3px -4px 8px #b39a7475;color:#4e3642;font-size:38px;font-family:"Noto Sans Runic","Segoe UI Symbol","DejaVu Sans",serif;cursor:pointer;will-change:transform;transition:box-shadow .15s}
+.rune-bone:hover,.rune-bone:focus-visible{box-shadow:4px 8px 10px #160d2580,0 0 0 3px #ffddaa;z-index:4}
+.rune-bone.face-down{background:radial-gradient(ellipse at 35% 24%,#eedcc4,#b49b8c);color:#cdbba6}
+.rune-bone.reversed .rune-bone-glyph{transform:rotate(180deg)}
+.rune-bone-glyph{display:block;text-shadow:0 1px 0 #fffaea}
+.rune-hand{position:absolute;z-index:3;bottom:20px;left:50%;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;min-width:175px;min-height:84px;padding:12px;border:1px solid #f2d5a6;outline-offset:3px;border-radius:60% 60% 38% 38%;background:linear-gradient(140deg,#53354ae0,#2e243be8);color:#ffe9d0;text-align:center;cursor:grab;box-shadow:0 7px 15px #1d0f22a3}
+.rune-hand-mark{font:22px Georgia,serif;letter-spacing:.11em}.rune-hand-label{font-size:.74rem;font-weight:800}
+.rune-cloth.rattling .rune-hand{animation:runeRattle .12s linear infinite alternate;cursor:grabbing}
+.rune-cloth.casting .rune-hand{opacity:.13;pointer-events:none}
+@keyframes runeRattle{from{transform:translateX(calc(-50% - 3px)) rotate(-4deg)}to{transform:translateX(calc(-50% + 3px)) rotate(4deg)}}
+.rune-status{min-height:28px;text-align:center;color:#f6ddbd;font-size:.94rem;margin:10px 0}
+.rune-cast-controls{display:flex;flex-wrap:wrap;gap:12px;justify-content:center}
+.rune-cast-controls button{border-radius:22px;padding:12px 20px;min-height:49px;cursor:pointer;font-size:1rem;font-weight:800}
+.rune-cast-button{border:1px solid #ffe2ac;background:linear-gradient(145deg,#f1bce1,#e8c3a6);color:#3c2a3f}
+.rune-secondary{background:#4c3455;color:#fff1ec;border:1px solid #c1a1ba}
+.rune-sanctuary button:focus-visible,.rune-sanctuary input:focus-visible,.rune-sanctuary a:focus-visible,.rune-hand:focus-visible{outline:3px solid #ffe69e;outline-offset:3px}
+.rune-result-head{text-align:center;padding:10px 0 12px}
+.rune-result-head h3{font-size:1.6rem;margin-bottom:5px}
+.rune-result-head p{color:#f4dce4}
+.rune-interpretation{display:flex;gap:16px;align-items:flex-start;border:1px solid #edd2bb;border-radius:16px;background:#fff6eb;color:#3f2d44;padding:19px;margin:12px 0}
+.rune-interpretation h4{font-size:1.15rem;margin:2px 0 8px;color:#533457}
+.rune-interpretation p{font-size:.94rem;color:#493649;margin:5px 0}
+.rune-interpretation p strong{color:#613b58}
+.rune-interpretation-glyph{min-width:58px;font-size:45px;font-family:"Noto Sans Runic","Segoe UI Symbol",serif;color:#663f59;text-align:center}
+.rune-interpretation p.rune-meta{font-size:.8rem;color:#775c77}
+.rune-conclusion{padding:19px 21px;border-radius:15px;border:1px solid #dcbda3;background:#76556c;color:#fff4e9;margin-top:16px}
+.rune-conclusion p{color:#fff1e8;margin:6px 0}
+.rune-history{margin-top:23px;background:#e4d1e4f5;color:#402c46;border-radius:17px;border:1px solid #e8cfb1;padding:14px 19px}
+.rune-history summary{cursor:pointer;font-weight:800;color:#503150}
+.rune-history p{color:#4b344c;font-size:.91rem}
+.rune-history a{color:#673973;text-decoration:underline}
+@media(max-width:710px){.rune-modes{grid-template-columns:repeat(2,minmax(0,1fr))}.rune-cloth{height:450px;border-width:8px}.rune-sanctuary{padding:17px}.rune-interpretation{padding:14px}.rune-bone{width:49px;height:69px;font-size:33px}}
+@media(max-width:425px){.rune-cloth{height:405px}.rune-hand{min-width:156px;min-height:71px}.rune-interpretation-glyph{font-size:37px;min-width:45px}.rune-cast-controls button{width:100%}}
+@media(prefers-reduced-motion:reduce){.rune-cloth.rattling .rune-hand{animation:none}.rune-bone{transition:none}}
+
+
+/* Netlify-only image transforms. Preserve original CSS images on Cloudflare
+   and Render; these routes do not host /.netlify/images. */
+html.netlify-images .home-room-scene,
+html.netlify-images body[data-page="home"] .mystic-room-continuation{
+ background-image:url('/.netlify/images?url=/assets/home-mystic-room-arabic.png&w=1400&q=75');
+}
+html.netlify-images body[data-page="home"] .container:before,
+html.netlify-images .home-light-portal:before{
+ background-image:url('/.netlify/images?url=/assets/home-light-portal.png&w=1200&q=75');
+}
+
